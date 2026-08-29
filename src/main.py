@@ -17,7 +17,7 @@ import itertools
 from copy import deepcopy
 import multiprocessing
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 parser = argparse.ArgumentParser()

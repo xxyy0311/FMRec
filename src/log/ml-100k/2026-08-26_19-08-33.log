@@ -1,0 +1,27 @@
+2026/08/26 19:08:33 - __main__ - INFO - 73 - main - Namespace(dataset='ml-100k', log_file='log/', random_seed=1997, max_len=50, device='cuda', num_gpu=1, batch_size=128, hidden_size=128, dropout=0.1, emb_dropout=0.3, hidden_act='gelu', num_blocks=4, epochs=2, decay_step=100, gamma=0.1, metric_ks=[5, 10, 20], optimizer='Adam', lr=0.001, weight_decay=0, momentum=None, lambda_uncertainty=0.001, eval_interval=1, patience=5, eps=0.001, sample_N=5, lambda_t=0.001, dropout_c=0.1, eps_reverse=0.001, m_logNorm=1.0, s_logNorm=0.6, s_modsamp=1.0, last=2, mask_ratio=1.0, sampling_method='mode', Loss_Alpha=0.2, Loss_Beta=0.4)
+2026/08/26 19:08:34 - __main__ - INFO - 117 - trainer - Epoch: 0
+2026/08/26 19:08:34 - __main__ - INFO - 162 - trainer - [0/760] Loss: 13.2755
+2026/08/26 19:08:42 - __main__ - INFO - 162 - trainer - [153/760] Loss: 5.4651
+2026/08/26 19:08:49 - __main__ - INFO - 162 - trainer - [306/760] Loss: 4.1030
+2026/08/26 19:08:57 - __main__ - INFO - 162 - trainer - [459/760] Loss: 3.2215
+2026/08/26 19:09:04 - __main__ - INFO - 162 - trainer - [612/760] Loss: 2.6545
+2026/08/26 19:09:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 0: 4.0431
+2026/08/26 19:09:11 - __main__ - INFO - 117 - trainer - Epoch: 1
+2026/08/26 19:09:12 - __main__ - INFO - 162 - trainer - [0/760] Loss: 2.4496
+2026/08/26 19:09:19 - __main__ - INFO - 162 - trainer - [153/760] Loss: 2.3972
+2026/08/26 19:09:25 - __main__ - INFO - 162 - trainer - [306/760] Loss: 2.3093
+2026/08/26 19:09:32 - __main__ - INFO - 162 - trainer - [459/760] Loss: 2.2557
+2026/08/26 19:09:39 - __main__ - INFO - 162 - trainer - [612/760] Loss: 2.1253
+2026/08/26 19:09:45 - __main__ - INFO - 167 - trainer - Average loss in epoch 1: 2.2813
+2026/08/26 19:09:45 - __main__ - INFO - 173 - trainer - start predicting: 2026-08-26 19:09:45.909742
+2026/08/26 19:09:46 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(3.3639), 'Best_HR@10': np.float64(6.0983), 'Best_HR@20': np.float64(11.5671), 'Best_NDCG@5': np.float64(1.7699), 'Best_NDCG@10': np.float64(2.6495), 'Best_NDCG@20': np.float64(4.013)}
+2026/08/26 19:09:46 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 1, 'Best_epoch_HR@10': 1, 'Best_epoch_HR@20': 1, 'Best_epoch_NDCG@5': 1, 'Best_epoch_NDCG@10': 1, 'Best_epoch_NDCG@20': 1}
+2026/08/26 19:09:46 - __main__ - INFO - 210 - trainer - {'Best_HR@5': np.float64(3.3639), 'Best_HR@10': np.float64(6.0983), 'Best_HR@20': np.float64(11.5671), 'Best_NDCG@5': np.float64(1.7699), 'Best_NDCG@10': np.float64(2.6495), 'Best_NDCG@20': np.float64(4.013)}
+2026/08/26 19:09:46 - __main__ - INFO - 211 - trainer - {'Best_epoch_HR@5': 1, 'Best_epoch_HR@10': 1, 'Best_epoch_HR@20': 1, 'Best_epoch_NDCG@5': 1, 'Best_epoch_NDCG@10': 1, 'Best_epoch_NDCG@20': 1}
+2026/08/26 19:10:29 - __main__ - INFO - 268 - trainer - Train------------------------------------------------------
+2026/08/26 19:10:29 - __main__ - INFO - 270 - trainer - {'HR@5': np.float64(4.4274), 'HR@10': np.float64(8.1856), 'HR@20': np.float64(14.1743), 'NDCG@5': np.float64(2.6606), 'NDCG@10': np.float64(3.8672), 'NDCG@20': np.float64(5.3708)}
+2026/08/26 19:10:29 - __main__ - INFO - 274 - trainer - Test------------------------------------------------------
+2026/08/26 19:10:29 - __main__ - INFO - 276 - trainer - {'HR@5': np.float64(2.5827), 'HR@10': np.float64(5.263), 'HR@20': np.float64(10.2331), 'NDCG@5': np.float64(1.6585), 'NDCG@10': np.float64(2.5107), 'NDCG@20': np.float64(3.7584)}
+2026/08/26 19:10:29 - __main__ - INFO - 279 - trainer - Best Eval---------------------------------------------------------
+2026/08/26 19:10:29 - __main__ - INFO - 282 - trainer - {'Best_HR@5': np.float64(3.3639), 'Best_HR@10': np.float64(6.0983), 'Best_HR@20': np.float64(11.5671), 'Best_NDCG@5': np.float64(1.7699), 'Best_NDCG@10': np.float64(2.6495), 'Best_NDCG@20': np.float64(4.013)}
+2026/08/26 19:10:29 - __main__ - INFO - 283 - trainer - {'Best_epoch_HR@5': 1, 'Best_epoch_HR@10': 1, 'Best_epoch_HR@20': 1, 'Best_epoch_NDCG@5': 1, 'Best_epoch_NDCG@10': 1, 'Best_epoch_NDCG@20': 1}
