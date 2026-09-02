@@ -1,0 +1,2146 @@
+2026/09/02 15:50:47 - __main__ - INFO - 73 - main - Namespace(dataset='ml-100k', log_file='log/', random_seed=1997, max_len=50, device='cuda', num_gpu=1, batch_size=512, hidden_size=128, dropout=0.1, emb_dropout=0.3, hidden_act='gelu', num_blocks=4, epochs=500, decay_step=100, gamma=0.1, metric_ks=[5, 10, 20], optimizer='Adam', lr=0.001, weight_decay=0, momentum=None, lambda_uncertainty=0.001, eval_interval=20, patience=5, eps=0.001, sample_N=30, lambda_t=0.001, dropout_c=0.1, eps_reverse=0.001, m_logNorm=1.0, s_logNorm=0.6, s_modsamp=1.0, last=2, mask_ratio=1.0, sampling_method='logit_normal', Loss_Alpha=0.2, Loss_Beta=0.4)
+2026/09/02 15:50:48 - __main__ - INFO - 117 - trainer - Epoch: 0
+2026/09/02 15:50:48 - __main__ - INFO - 162 - trainer - [0/190] Loss: 13.3140
+2026/09/02 15:50:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 6.6830
+2026/09/02 15:50:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 5.9856
+2026/09/02 15:51:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 5.2368
+2026/09/02 15:51:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 4.8512
+2026/09/02 15:51:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 0: 5.9515
+2026/09/02 15:51:14 - __main__ - INFO - 117 - trainer - Epoch: 1
+2026/09/02 15:51:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 4.4724
+2026/09/02 15:51:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 4.2259
+2026/09/02 15:51:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 4.0542
+2026/09/02 15:51:30 - __main__ - INFO - 162 - trainer - [117/190] Loss: 3.7409
+2026/09/02 15:51:35 - __main__ - INFO - 162 - trainer - [156/190] Loss: 3.4358
+2026/09/02 15:51:40 - __main__ - INFO - 167 - trainer - Average loss in epoch 1: 3.8638
+2026/09/02 15:51:40 - __main__ - INFO - 117 - trainer - Epoch: 2
+2026/09/02 15:51:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 3.0510
+2026/09/02 15:51:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 2.8819
+2026/09/02 15:51:51 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.7789
+2026/09/02 15:51:56 - __main__ - INFO - 162 - trainer - [117/190] Loss: 2.6281
+2026/09/02 15:52:01 - __main__ - INFO - 162 - trainer - [156/190] Loss: 2.5566
+2026/09/02 15:52:06 - __main__ - INFO - 167 - trainer - Average loss in epoch 2: 2.7220
+2026/09/02 15:52:06 - __main__ - INFO - 117 - trainer - Epoch: 3
+2026/09/02 15:52:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 2.4757
+2026/09/02 15:52:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 2.3929
+2026/09/02 15:52:17 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.3522
+2026/09/02 15:52:22 - __main__ - INFO - 162 - trainer - [117/190] Loss: 2.3337
+2026/09/02 15:52:27 - __main__ - INFO - 162 - trainer - [156/190] Loss: 2.3042
+2026/09/02 15:52:31 - __main__ - INFO - 167 - trainer - Average loss in epoch 3: 2.3562
+2026/09/02 15:52:31 - __main__ - INFO - 117 - trainer - Epoch: 4
+2026/09/02 15:52:32 - __main__ - INFO - 162 - trainer - [0/190] Loss: 2.2863
+2026/09/02 15:52:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 2.2600
+2026/09/02 15:52:42 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.2178
+2026/09/02 15:52:48 - __main__ - INFO - 162 - trainer - [117/190] Loss: 2.1905
+2026/09/02 15:52:53 - __main__ - INFO - 162 - trainer - [156/190] Loss: 2.1818
+2026/09/02 15:52:58 - __main__ - INFO - 167 - trainer - Average loss in epoch 4: 2.2212
+2026/09/02 15:52:58 - __main__ - INFO - 117 - trainer - Epoch: 5
+2026/09/02 15:52:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 2.1751
+2026/09/02 15:53:03 - __main__ - INFO - 162 - trainer - [39/190] Loss: 2.1213
+2026/09/02 15:53:08 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.1290
+2026/09/02 15:53:13 - __main__ - INFO - 162 - trainer - [117/190] Loss: 2.1306
+2026/09/02 15:53:19 - __main__ - INFO - 162 - trainer - [156/190] Loss: 2.0686
+2026/09/02 15:53:23 - __main__ - INFO - 167 - trainer - Average loss in epoch 5: 2.1249
+2026/09/02 15:53:23 - __main__ - INFO - 117 - trainer - Epoch: 6
+2026/09/02 15:53:23 - __main__ - INFO - 162 - trainer - [0/190] Loss: 2.0502
+2026/09/02 15:53:28 - __main__ - INFO - 162 - trainer - [39/190] Loss: 2.0626
+2026/09/02 15:53:34 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.0634
+2026/09/02 15:53:39 - __main__ - INFO - 162 - trainer - [117/190] Loss: 2.0317
+2026/09/02 15:53:45 - __main__ - INFO - 162 - trainer - [156/190] Loss: 2.0171
+2026/09/02 15:53:49 - __main__ - INFO - 167 - trainer - Average loss in epoch 6: 2.0466
+2026/09/02 15:53:49 - __main__ - INFO - 117 - trainer - Epoch: 7
+2026/09/02 15:53:49 - __main__ - INFO - 162 - trainer - [0/190] Loss: 2.0150
+2026/09/02 15:53:55 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.9815
+2026/09/02 15:54:00 - __main__ - INFO - 162 - trainer - [78/190] Loss: 2.0152
+2026/09/02 15:54:05 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.9709
+2026/09/02 15:54:11 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.9528
+2026/09/02 15:54:15 - __main__ - INFO - 167 - trainer - Average loss in epoch 7: 1.9766
+2026/09/02 15:54:15 - __main__ - INFO - 117 - trainer - Epoch: 8
+2026/09/02 15:54:15 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.9463
+2026/09/02 15:54:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.9420
+2026/09/02 15:54:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.9305
+2026/09/02 15:54:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.9083
+2026/09/02 15:54:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.8826
+2026/09/02 15:54:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 8: 1.9117
+2026/09/02 15:54:41 - __main__ - INFO - 117 - trainer - Epoch: 9
+2026/09/02 15:54:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.8540
+2026/09/02 15:54:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.8830
+2026/09/02 15:54:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.8809
+2026/09/02 15:54:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.8314
+2026/09/02 15:55:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.8812
+2026/09/02 15:55:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 9: 1.8513
+2026/09/02 15:55:07 - __main__ - INFO - 117 - trainer - Epoch: 10
+2026/09/02 15:55:07 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.8200
+2026/09/02 15:55:12 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.8059
+2026/09/02 15:55:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.7783
+2026/09/02 15:55:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.7663
+2026/09/02 15:55:28 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.7797
+2026/09/02 15:55:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 10: 1.7968
+2026/09/02 15:55:33 - __main__ - INFO - 117 - trainer - Epoch: 11
+2026/09/02 15:55:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.7713
+2026/09/02 15:55:38 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.7615
+2026/09/02 15:55:43 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.7486
+2026/09/02 15:55:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.7353
+2026/09/02 15:55:54 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.7479
+2026/09/02 15:55:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 11: 1.7458
+2026/09/02 15:55:59 - __main__ - INFO - 117 - trainer - Epoch: 12
+2026/09/02 15:55:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.7104
+2026/09/02 15:56:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.7133
+2026/09/02 15:56:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.7007
+2026/09/02 15:56:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.6921
+2026/09/02 15:56:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.6938
+2026/09/02 15:56:24 - __main__ - INFO - 167 - trainer - Average loss in epoch 12: 1.6965
+2026/09/02 15:56:24 - __main__ - INFO - 117 - trainer - Epoch: 13
+2026/09/02 15:56:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.6899
+2026/09/02 15:56:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.6980
+2026/09/02 15:56:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.6467
+2026/09/02 15:56:40 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.6530
+2026/09/02 15:56:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.6347
+2026/09/02 15:56:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 13: 1.6525
+2026/09/02 15:56:50 - __main__ - INFO - 117 - trainer - Epoch: 14
+2026/09/02 15:56:50 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.6291
+2026/09/02 15:56:56 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.5911
+2026/09/02 15:57:01 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.6118
+2026/09/02 15:57:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.6065
+2026/09/02 15:57:11 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.6073
+2026/09/02 15:57:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 14: 1.6095
+2026/09/02 15:57:16 - __main__ - INFO - 117 - trainer - Epoch: 15
+2026/09/02 15:57:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.5834
+2026/09/02 15:57:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.5709
+2026/09/02 15:57:27 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.5773
+2026/09/02 15:57:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.5809
+2026/09/02 15:57:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.5774
+2026/09/02 15:57:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 15: 1.5710
+2026/09/02 15:57:42 - __main__ - INFO - 117 - trainer - Epoch: 16
+2026/09/02 15:57:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.5414
+2026/09/02 15:57:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.5745
+2026/09/02 15:57:53 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.5431
+2026/09/02 15:57:58 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.5206
+2026/09/02 15:58:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.5300
+2026/09/02 15:58:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 16: 1.5358
+2026/09/02 15:58:07 - __main__ - INFO - 117 - trainer - Epoch: 17
+2026/09/02 15:58:08 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.5197
+2026/09/02 15:58:13 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.5001
+2026/09/02 15:58:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.5223
+2026/09/02 15:58:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.5199
+2026/09/02 15:58:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.4834
+2026/09/02 15:58:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 17: 1.5034
+2026/09/02 15:58:33 - __main__ - INFO - 117 - trainer - Epoch: 18
+2026/09/02 15:58:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.4856
+2026/09/02 15:58:39 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.4425
+2026/09/02 15:58:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.4895
+2026/09/02 15:58:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.4588
+2026/09/02 15:58:55 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.4462
+2026/09/02 15:58:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 18: 1.4733
+2026/09/02 15:58:59 - __main__ - INFO - 117 - trainer - Epoch: 19
+2026/09/02 15:58:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.4773
+2026/09/02 15:59:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.4750
+2026/09/02 15:59:10 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.4569
+2026/09/02 15:59:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.4165
+2026/09/02 15:59:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.4308
+2026/09/02 15:59:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 19: 1.4451
+2026/09/02 15:59:25 - __main__ - INFO - 117 - trainer - Epoch: 20
+2026/09/02 15:59:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.4226
+2026/09/02 15:59:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.4345
+2026/09/02 15:59:36 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.4319
+2026/09/02 15:59:41 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.4108
+2026/09/02 15:59:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.4003
+2026/09/02 15:59:51 - __main__ - INFO - 167 - trainer - Average loss in epoch 20: 1.4207
+2026/09/02 15:59:51 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 15:59:51.077376
+2026/09/02 15:59:53 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(7.0936), 'Best_HR@10': np.float64(12.2825), 'Best_HR@20': np.float64(19.9928), 'Best_NDCG@5': np.float64(4.4035), 'Best_NDCG@10': np.float64(6.0539), 'Best_NDCG@20': np.float64(7.9881)}
+2026/09/02 15:59:53 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 20, 'Best_epoch_HR@10': 20, 'Best_epoch_HR@20': 20, 'Best_epoch_NDCG@5': 20, 'Best_epoch_NDCG@10': 20, 'Best_epoch_NDCG@20': 20}
+2026/09/02 15:59:53 - __main__ - INFO - 117 - trainer - Epoch: 21
+2026/09/02 15:59:53 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.3960
+2026/09/02 15:59:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.4283
+2026/09/02 16:00:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.3954
+2026/09/02 16:00:10 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.4077
+2026/09/02 16:00:15 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3901
+2026/09/02 16:00:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 21: 1.3968
+2026/09/02 16:00:20 - __main__ - INFO - 117 - trainer - Epoch: 22
+2026/09/02 16:00:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.4414
+2026/09/02 16:00:26 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3656
+2026/09/02 16:00:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.4010
+2026/09/02 16:00:37 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.3638
+2026/09/02 16:00:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3659
+2026/09/02 16:00:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 22: 1.3763
+2026/09/02 16:00:47 - __main__ - INFO - 117 - trainer - Epoch: 23
+2026/09/02 16:00:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.3224
+2026/09/02 16:00:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3578
+2026/09/02 16:00:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.3592
+2026/09/02 16:01:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.3701
+2026/09/02 16:01:09 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3754
+2026/09/02 16:01:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 23: 1.3566
+2026/09/02 16:01:14 - __main__ - INFO - 117 - trainer - Epoch: 24
+2026/09/02 16:01:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.3584
+2026/09/02 16:01:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3137
+2026/09/02 16:01:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.3584
+2026/09/02 16:01:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.3423
+2026/09/02 16:01:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3395
+2026/09/02 16:01:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 24: 1.3394
+2026/09/02 16:01:41 - __main__ - INFO - 117 - trainer - Epoch: 25
+2026/09/02 16:01:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.3268
+2026/09/02 16:01:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3216
+2026/09/02 16:01:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.3238
+2026/09/02 16:01:58 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.3265
+2026/09/02 16:02:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3135
+2026/09/02 16:02:08 - __main__ - INFO - 167 - trainer - Average loss in epoch 25: 1.3212
+2026/09/02 16:02:08 - __main__ - INFO - 117 - trainer - Epoch: 26
+2026/09/02 16:02:08 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.3343
+2026/09/02 16:02:14 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3429
+2026/09/02 16:02:19 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2969
+2026/09/02 16:02:25 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.3049
+2026/09/02 16:02:30 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3045
+2026/09/02 16:02:35 - __main__ - INFO - 167 - trainer - Average loss in epoch 26: 1.3076
+2026/09/02 16:02:35 - __main__ - INFO - 117 - trainer - Epoch: 27
+2026/09/02 16:02:35 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2948
+2026/09/02 16:02:41 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.3077
+2026/09/02 16:02:46 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.3286
+2026/09/02 16:02:51 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2799
+2026/09/02 16:02:57 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2635
+2026/09/02 16:03:02 - __main__ - INFO - 167 - trainer - Average loss in epoch 27: 1.2939
+2026/09/02 16:03:02 - __main__ - INFO - 117 - trainer - Epoch: 28
+2026/09/02 16:03:02 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2774
+2026/09/02 16:03:07 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2637
+2026/09/02 16:03:13 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2918
+2026/09/02 16:03:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2967
+2026/09/02 16:03:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.3099
+2026/09/02 16:03:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 28: 1.2813
+2026/09/02 16:03:29 - __main__ - INFO - 117 - trainer - Epoch: 29
+2026/09/02 16:03:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2673
+2026/09/02 16:03:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2569
+2026/09/02 16:03:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2594
+2026/09/02 16:03:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2842
+2026/09/02 16:03:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2718
+2026/09/02 16:03:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 29: 1.2700
+2026/09/02 16:03:56 - __main__ - INFO - 117 - trainer - Epoch: 30
+2026/09/02 16:03:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2585
+2026/09/02 16:04:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2534
+2026/09/02 16:04:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2445
+2026/09/02 16:04:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2300
+2026/09/02 16:04:18 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2712
+2026/09/02 16:04:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 30: 1.2596
+2026/09/02 16:04:22 - __main__ - INFO - 117 - trainer - Epoch: 31
+2026/09/02 16:04:23 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2667
+2026/09/02 16:04:28 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2693
+2026/09/02 16:04:34 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2515
+2026/09/02 16:04:39 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2297
+2026/09/02 16:04:45 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2660
+2026/09/02 16:04:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 31: 1.2502
+2026/09/02 16:04:50 - __main__ - INFO - 117 - trainer - Epoch: 32
+2026/09/02 16:04:50 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2523
+2026/09/02 16:04:55 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2392
+2026/09/02 16:05:01 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2693
+2026/09/02 16:05:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2479
+2026/09/02 16:05:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2422
+2026/09/02 16:05:17 - __main__ - INFO - 167 - trainer - Average loss in epoch 32: 1.2409
+2026/09/02 16:05:17 - __main__ - INFO - 117 - trainer - Epoch: 33
+2026/09/02 16:05:17 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2277
+2026/09/02 16:05:22 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2124
+2026/09/02 16:05:28 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2289
+2026/09/02 16:05:34 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2339
+2026/09/02 16:05:39 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2188
+2026/09/02 16:05:44 - __main__ - INFO - 167 - trainer - Average loss in epoch 33: 1.2333
+2026/09/02 16:05:44 - __main__ - INFO - 117 - trainer - Epoch: 34
+2026/09/02 16:05:44 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2327
+2026/09/02 16:05:49 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2177
+2026/09/02 16:05:55 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1976
+2026/09/02 16:06:00 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2453
+2026/09/02 16:06:06 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2114
+2026/09/02 16:06:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 34: 1.2263
+2026/09/02 16:06:11 - __main__ - INFO - 117 - trainer - Epoch: 35
+2026/09/02 16:06:11 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2149
+2026/09/02 16:06:16 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1966
+2026/09/02 16:06:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2205
+2026/09/02 16:06:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2466
+2026/09/02 16:06:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2081
+2026/09/02 16:06:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 35: 1.2188
+2026/09/02 16:06:38 - __main__ - INFO - 117 - trainer - Epoch: 36
+2026/09/02 16:06:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1961
+2026/09/02 16:06:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2101
+2026/09/02 16:06:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2180
+2026/09/02 16:06:54 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2359
+2026/09/02 16:07:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2074
+2026/09/02 16:07:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 36: 1.2136
+2026/09/02 16:07:04 - __main__ - INFO - 117 - trainer - Epoch: 37
+2026/09/02 16:07:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1998
+2026/09/02 16:07:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2061
+2026/09/02 16:07:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2092
+2026/09/02 16:07:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2310
+2026/09/02 16:07:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1796
+2026/09/02 16:07:31 - __main__ - INFO - 167 - trainer - Average loss in epoch 37: 1.2064
+2026/09/02 16:07:31 - __main__ - INFO - 117 - trainer - Epoch: 38
+2026/09/02 16:07:31 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2019
+2026/09/02 16:07:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2028
+2026/09/02 16:07:42 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1894
+2026/09/02 16:07:48 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2377
+2026/09/02 16:07:53 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.2088
+2026/09/02 16:07:58 - __main__ - INFO - 167 - trainer - Average loss in epoch 38: 1.2018
+2026/09/02 16:07:58 - __main__ - INFO - 117 - trainer - Epoch: 39
+2026/09/02 16:07:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1762
+2026/09/02 16:08:03 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.2034
+2026/09/02 16:08:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1840
+2026/09/02 16:08:14 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2321
+2026/09/02 16:08:19 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1965
+2026/09/02 16:08:24 - __main__ - INFO - 167 - trainer - Average loss in epoch 39: 1.1962
+2026/09/02 16:08:24 - __main__ - INFO - 117 - trainer - Epoch: 40
+2026/09/02 16:08:24 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2046
+2026/09/02 16:08:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1996
+2026/09/02 16:08:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1825
+2026/09/02 16:08:41 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1877
+2026/09/02 16:08:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1981
+2026/09/02 16:08:51 - __main__ - INFO - 167 - trainer - Average loss in epoch 40: 1.1912
+2026/09/02 16:08:51 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:08:51.144644
+2026/09/02 16:08:53 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(7.0936), 'Best_HR@10': np.float64(14.0954), 'Best_HR@20': np.float64(24.6259), 'Best_NDCG@5': np.float64(4.4035), 'Best_NDCG@10': np.float64(6.557), 'Best_NDCG@20': np.float64(9.2274)}
+2026/09/02 16:08:53 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 20, 'Best_epoch_HR@10': 40, 'Best_epoch_HR@20': 40, 'Best_epoch_NDCG@5': 20, 'Best_epoch_NDCG@10': 40, 'Best_epoch_NDCG@20': 40}
+2026/09/02 16:08:53 - __main__ - INFO - 117 - trainer - Epoch: 41
+2026/09/02 16:08:53 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.2011
+2026/09/02 16:08:58 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1762
+2026/09/02 16:09:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.2024
+2026/09/02 16:09:09 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1603
+2026/09/02 16:09:14 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1813
+2026/09/02 16:09:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 41: 1.1869
+2026/09/02 16:09:18 - __main__ - INFO - 117 - trainer - Epoch: 42
+2026/09/02 16:09:19 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1913
+2026/09/02 16:09:24 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1740
+2026/09/02 16:09:29 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1704
+2026/09/02 16:09:34 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2010
+2026/09/02 16:09:40 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1607
+2026/09/02 16:09:44 - __main__ - INFO - 167 - trainer - Average loss in epoch 42: 1.1829
+2026/09/02 16:09:44 - __main__ - INFO - 117 - trainer - Epoch: 43
+2026/09/02 16:09:44 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1966
+2026/09/02 16:09:49 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1879
+2026/09/02 16:09:55 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1792
+2026/09/02 16:10:00 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1878
+2026/09/02 16:10:05 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1846
+2026/09/02 16:10:10 - __main__ - INFO - 167 - trainer - Average loss in epoch 43: 1.1802
+2026/09/02 16:10:10 - __main__ - INFO - 117 - trainer - Epoch: 44
+2026/09/02 16:10:10 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1588
+2026/09/02 16:10:15 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1882
+2026/09/02 16:10:20 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1747
+2026/09/02 16:10:25 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.2026
+2026/09/02 16:10:31 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1920
+2026/09/02 16:10:35 - __main__ - INFO - 167 - trainer - Average loss in epoch 44: 1.1759
+2026/09/02 16:10:35 - __main__ - INFO - 117 - trainer - Epoch: 45
+2026/09/02 16:10:35 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1693
+2026/09/02 16:10:40 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1632
+2026/09/02 16:10:46 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1809
+2026/09/02 16:10:51 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1657
+2026/09/02 16:10:56 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1827
+2026/09/02 16:11:01 - __main__ - INFO - 167 - trainer - Average loss in epoch 45: 1.1724
+2026/09/02 16:11:01 - __main__ - INFO - 117 - trainer - Epoch: 46
+2026/09/02 16:11:01 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1843
+2026/09/02 16:11:06 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1679
+2026/09/02 16:11:11 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1841
+2026/09/02 16:11:17 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1672
+2026/09/02 16:11:22 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1517
+2026/09/02 16:11:26 - __main__ - INFO - 167 - trainer - Average loss in epoch 46: 1.1689
+2026/09/02 16:11:26 - __main__ - INFO - 117 - trainer - Epoch: 47
+2026/09/02 16:11:27 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1565
+2026/09/02 16:11:32 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1643
+2026/09/02 16:11:37 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1667
+2026/09/02 16:11:42 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1440
+2026/09/02 16:11:47 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1706
+2026/09/02 16:11:51 - __main__ - INFO - 167 - trainer - Average loss in epoch 47: 1.1668
+2026/09/02 16:11:51 - __main__ - INFO - 117 - trainer - Epoch: 48
+2026/09/02 16:11:51 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1674
+2026/09/02 16:11:57 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1582
+2026/09/02 16:12:02 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1720
+2026/09/02 16:12:07 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1546
+2026/09/02 16:12:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1593
+2026/09/02 16:12:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 48: 1.1630
+2026/09/02 16:12:16 - __main__ - INFO - 117 - trainer - Epoch: 49
+2026/09/02 16:12:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1357
+2026/09/02 16:12:22 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1237
+2026/09/02 16:12:27 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1938
+2026/09/02 16:12:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1681
+2026/09/02 16:12:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1750
+2026/09/02 16:12:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 49: 1.1606
+2026/09/02 16:12:42 - __main__ - INFO - 117 - trainer - Epoch: 50
+2026/09/02 16:12:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1569
+2026/09/02 16:12:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1535
+2026/09/02 16:12:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1534
+2026/09/02 16:12:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1574
+2026/09/02 16:13:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1420
+2026/09/02 16:13:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 50: 1.1587
+2026/09/02 16:13:07 - __main__ - INFO - 117 - trainer - Epoch: 51
+2026/09/02 16:13:07 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1447
+2026/09/02 16:13:12 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1762
+2026/09/02 16:13:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1664
+2026/09/02 16:13:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1483
+2026/09/02 16:13:28 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1649
+2026/09/02 16:13:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 51: 1.1560
+2026/09/02 16:13:33 - __main__ - INFO - 117 - trainer - Epoch: 52
+2026/09/02 16:13:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1580
+2026/09/02 16:13:38 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1584
+2026/09/02 16:13:43 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1520
+2026/09/02 16:13:48 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1337
+2026/09/02 16:13:53 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1409
+2026/09/02 16:13:58 - __main__ - INFO - 167 - trainer - Average loss in epoch 52: 1.1539
+2026/09/02 16:13:58 - __main__ - INFO - 117 - trainer - Epoch: 53
+2026/09/02 16:13:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1537
+2026/09/02 16:14:03 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1515
+2026/09/02 16:14:08 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1502
+2026/09/02 16:14:14 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1755
+2026/09/02 16:14:19 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1545
+2026/09/02 16:14:23 - __main__ - INFO - 167 - trainer - Average loss in epoch 53: 1.1513
+2026/09/02 16:14:23 - __main__ - INFO - 117 - trainer - Epoch: 54
+2026/09/02 16:14:24 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1392
+2026/09/02 16:14:29 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1181
+2026/09/02 16:14:34 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1694
+2026/09/02 16:14:39 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1588
+2026/09/02 16:14:44 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1671
+2026/09/02 16:14:49 - __main__ - INFO - 167 - trainer - Average loss in epoch 54: 1.1495
+2026/09/02 16:14:49 - __main__ - INFO - 117 - trainer - Epoch: 55
+2026/09/02 16:14:49 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1548
+2026/09/02 16:14:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1307
+2026/09/02 16:14:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1404
+2026/09/02 16:15:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1626
+2026/09/02 16:15:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1434
+2026/09/02 16:15:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 55: 1.1469
+2026/09/02 16:15:14 - __main__ - INFO - 117 - trainer - Epoch: 56
+2026/09/02 16:15:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1369
+2026/09/02 16:15:19 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1557
+2026/09/02 16:15:24 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1320
+2026/09/02 16:15:30 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1369
+2026/09/02 16:15:35 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1317
+2026/09/02 16:15:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 56: 1.1455
+2026/09/02 16:15:39 - __main__ - INFO - 117 - trainer - Epoch: 57
+2026/09/02 16:15:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1478
+2026/09/02 16:15:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1623
+2026/09/02 16:15:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1679
+2026/09/02 16:15:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1516
+2026/09/02 16:16:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1315
+2026/09/02 16:16:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 57: 1.1435
+2026/09/02 16:16:04 - __main__ - INFO - 117 - trainer - Epoch: 58
+2026/09/02 16:16:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1466
+2026/09/02 16:16:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1497
+2026/09/02 16:16:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1509
+2026/09/02 16:16:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1283
+2026/09/02 16:16:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1356
+2026/09/02 16:16:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 58: 1.1417
+2026/09/02 16:16:30 - __main__ - INFO - 117 - trainer - Epoch: 59
+2026/09/02 16:16:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1373
+2026/09/02 16:16:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1351
+2026/09/02 16:16:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1426
+2026/09/02 16:16:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1268
+2026/09/02 16:16:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1373
+2026/09/02 16:16:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 59: 1.1399
+2026/09/02 16:16:56 - __main__ - INFO - 117 - trainer - Epoch: 60
+2026/09/02 16:16:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1230
+2026/09/02 16:17:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1352
+2026/09/02 16:17:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1243
+2026/09/02 16:17:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1516
+2026/09/02 16:17:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1510
+2026/09/02 16:17:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 60: 1.1380
+2026/09/02 16:17:21 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:17:21.616466
+2026/09/02 16:17:24 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(7.8873), 'Best_HR@10': np.float64(14.8891), 'Best_HR@20': np.float64(26.3962), 'Best_NDCG@5': np.float64(5.0736), 'Best_NDCG@10': np.float64(7.3103), 'Best_NDCG@20': np.float64(10.2205)}
+2026/09/02 16:17:24 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 60, 'Best_epoch_HR@20': 60, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 60, 'Best_epoch_NDCG@20': 60}
+2026/09/02 16:17:24 - __main__ - INFO - 117 - trainer - Epoch: 61
+2026/09/02 16:17:24 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1523
+2026/09/02 16:17:29 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1383
+2026/09/02 16:17:34 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1447
+2026/09/02 16:17:39 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1054
+2026/09/02 16:17:44 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1330
+2026/09/02 16:17:49 - __main__ - INFO - 167 - trainer - Average loss in epoch 61: 1.1360
+2026/09/02 16:17:49 - __main__ - INFO - 117 - trainer - Epoch: 62
+2026/09/02 16:17:49 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1392
+2026/09/02 16:17:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1159
+2026/09/02 16:17:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1415
+2026/09/02 16:18:05 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1451
+2026/09/02 16:18:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1341
+2026/09/02 16:18:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 62: 1.1346
+2026/09/02 16:18:14 - __main__ - INFO - 117 - trainer - Epoch: 63
+2026/09/02 16:18:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1403
+2026/09/02 16:18:19 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1344
+2026/09/02 16:18:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1327
+2026/09/02 16:18:30 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1180
+2026/09/02 16:18:35 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1645
+2026/09/02 16:18:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 63: 1.1331
+2026/09/02 16:18:39 - __main__ - INFO - 117 - trainer - Epoch: 64
+2026/09/02 16:18:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1267
+2026/09/02 16:18:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1212
+2026/09/02 16:18:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1498
+2026/09/02 16:18:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1426
+2026/09/02 16:19:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1385
+2026/09/02 16:19:05 - __main__ - INFO - 167 - trainer - Average loss in epoch 64: 1.1321
+2026/09/02 16:19:05 - __main__ - INFO - 117 - trainer - Epoch: 65
+2026/09/02 16:19:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1107
+2026/09/02 16:19:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1310
+2026/09/02 16:19:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1433
+2026/09/02 16:19:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1410
+2026/09/02 16:19:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1454
+2026/09/02 16:19:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 65: 1.1306
+2026/09/02 16:19:30 - __main__ - INFO - 117 - trainer - Epoch: 66
+2026/09/02 16:19:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1198
+2026/09/02 16:19:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1200
+2026/09/02 16:19:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1261
+2026/09/02 16:19:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1152
+2026/09/02 16:19:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1306
+2026/09/02 16:19:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 66: 1.1291
+2026/09/02 16:19:56 - __main__ - INFO - 117 - trainer - Epoch: 67
+2026/09/02 16:19:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1456
+2026/09/02 16:20:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1371
+2026/09/02 16:20:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1099
+2026/09/02 16:20:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1160
+2026/09/02 16:20:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1393
+2026/09/02 16:20:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 67: 1.1274
+2026/09/02 16:20:21 - __main__ - INFO - 117 - trainer - Epoch: 68
+2026/09/02 16:20:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1133
+2026/09/02 16:20:26 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1434
+2026/09/02 16:20:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1255
+2026/09/02 16:20:37 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1271
+2026/09/02 16:20:42 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1411
+2026/09/02 16:20:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 68: 1.1263
+2026/09/02 16:20:47 - __main__ - INFO - 117 - trainer - Epoch: 69
+2026/09/02 16:20:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1077
+2026/09/02 16:20:52 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1354
+2026/09/02 16:20:57 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1599
+2026/09/02 16:21:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1220
+2026/09/02 16:21:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1467
+2026/09/02 16:21:12 - __main__ - INFO - 167 - trainer - Average loss in epoch 69: 1.1254
+2026/09/02 16:21:12 - __main__ - INFO - 117 - trainer - Epoch: 70
+2026/09/02 16:21:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1231
+2026/09/02 16:21:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1217
+2026/09/02 16:21:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1274
+2026/09/02 16:21:28 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1297
+2026/09/02 16:21:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1476
+2026/09/02 16:21:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 70: 1.1242
+2026/09/02 16:21:38 - __main__ - INFO - 117 - trainer - Epoch: 71
+2026/09/02 16:21:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1230
+2026/09/02 16:21:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1133
+2026/09/02 16:21:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1264
+2026/09/02 16:21:54 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1343
+2026/09/02 16:21:59 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1392
+2026/09/02 16:22:03 - __main__ - INFO - 167 - trainer - Average loss in epoch 71: 1.1226
+2026/09/02 16:22:03 - __main__ - INFO - 117 - trainer - Epoch: 72
+2026/09/02 16:22:03 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1512
+2026/09/02 16:22:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1112
+2026/09/02 16:22:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1078
+2026/09/02 16:22:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1165
+2026/09/02 16:22:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1332
+2026/09/02 16:22:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 72: 1.1221
+2026/09/02 16:22:29 - __main__ - INFO - 117 - trainer - Epoch: 73
+2026/09/02 16:22:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1076
+2026/09/02 16:22:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1105
+2026/09/02 16:22:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1212
+2026/09/02 16:22:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1493
+2026/09/02 16:22:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1335
+2026/09/02 16:22:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 73: 1.1211
+2026/09/02 16:22:55 - __main__ - INFO - 117 - trainer - Epoch: 74
+2026/09/02 16:22:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1315
+2026/09/02 16:23:00 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1219
+2026/09/02 16:23:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1108
+2026/09/02 16:23:10 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1186
+2026/09/02 16:23:16 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1215
+2026/09/02 16:23:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 74: 1.1188
+2026/09/02 16:23:20 - __main__ - INFO - 117 - trainer - Epoch: 75
+2026/09/02 16:23:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1052
+2026/09/02 16:23:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1109
+2026/09/02 16:23:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1296
+2026/09/02 16:23:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1173
+2026/09/02 16:23:41 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1303
+2026/09/02 16:23:46 - __main__ - INFO - 167 - trainer - Average loss in epoch 75: 1.1181
+2026/09/02 16:23:46 - __main__ - INFO - 117 - trainer - Epoch: 76
+2026/09/02 16:23:46 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1133
+2026/09/02 16:23:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1080
+2026/09/02 16:23:56 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1204
+2026/09/02 16:24:02 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1010
+2026/09/02 16:24:07 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1306
+2026/09/02 16:24:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 76: 1.1164
+2026/09/02 16:24:11 - __main__ - INFO - 117 - trainer - Epoch: 77
+2026/09/02 16:24:11 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1015
+2026/09/02 16:24:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1000
+2026/09/02 16:24:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1181
+2026/09/02 16:24:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1257
+2026/09/02 16:24:32 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1124
+2026/09/02 16:24:37 - __main__ - INFO - 167 - trainer - Average loss in epoch 77: 1.1157
+2026/09/02 16:24:37 - __main__ - INFO - 117 - trainer - Epoch: 78
+2026/09/02 16:24:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1136
+2026/09/02 16:24:42 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1249
+2026/09/02 16:24:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1062
+2026/09/02 16:24:53 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1058
+2026/09/02 16:24:58 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1202
+2026/09/02 16:25:03 - __main__ - INFO - 167 - trainer - Average loss in epoch 78: 1.1150
+2026/09/02 16:25:03 - __main__ - INFO - 117 - trainer - Epoch: 79
+2026/09/02 16:25:03 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1121
+2026/09/02 16:25:08 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1055
+2026/09/02 16:25:13 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1250
+2026/09/02 16:25:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1190
+2026/09/02 16:25:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1199
+2026/09/02 16:25:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 79: 1.1138
+2026/09/02 16:25:28 - __main__ - INFO - 117 - trainer - Epoch: 80
+2026/09/02 16:25:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1091
+2026/09/02 16:25:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1208
+2026/09/02 16:25:39 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1228
+2026/09/02 16:25:44 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0951
+2026/09/02 16:25:49 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1248
+2026/09/02 16:25:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 80: 1.1130
+2026/09/02 16:25:54 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:25:54.047255
+2026/09/02 16:25:56 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(9.2119), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(27.1106), 'Best_NDCG@5': np.float64(5.777), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(10.7904)}
+2026/09/02 16:25:56 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 80, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 80, 'Best_epoch_NDCG@5': 80, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 80}
+2026/09/02 16:25:56 - __main__ - INFO - 117 - trainer - Epoch: 81
+2026/09/02 16:25:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0885
+2026/09/02 16:26:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1116
+2026/09/02 16:26:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0874
+2026/09/02 16:26:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1083
+2026/09/02 16:26:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1114
+2026/09/02 16:26:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 81: 1.1113
+2026/09/02 16:26:21 - __main__ - INFO - 117 - trainer - Epoch: 82
+2026/09/02 16:26:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1063
+2026/09/02 16:26:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1100
+2026/09/02 16:26:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0724
+2026/09/02 16:26:37 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1045
+2026/09/02 16:26:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1171
+2026/09/02 16:26:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 82: 1.1106
+2026/09/02 16:26:47 - __main__ - INFO - 117 - trainer - Epoch: 83
+2026/09/02 16:26:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1101
+2026/09/02 16:26:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1213
+2026/09/02 16:26:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1198
+2026/09/02 16:27:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1043
+2026/09/02 16:27:09 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1102
+2026/09/02 16:27:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 83: 1.1098
+2026/09/02 16:27:13 - __main__ - INFO - 117 - trainer - Epoch: 84
+2026/09/02 16:27:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1060
+2026/09/02 16:27:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1023
+2026/09/02 16:27:24 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1072
+2026/09/02 16:27:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1054
+2026/09/02 16:27:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1062
+2026/09/02 16:27:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 84: 1.1086
+2026/09/02 16:27:39 - __main__ - INFO - 117 - trainer - Epoch: 85
+2026/09/02 16:27:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1005
+2026/09/02 16:27:44 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1212
+2026/09/02 16:27:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0973
+2026/09/02 16:27:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1227
+2026/09/02 16:28:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0925
+2026/09/02 16:28:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 85: 1.1074
+2026/09/02 16:28:04 - __main__ - INFO - 117 - trainer - Epoch: 86
+2026/09/02 16:28:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0951
+2026/09/02 16:28:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1076
+2026/09/02 16:28:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1003
+2026/09/02 16:28:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1191
+2026/09/02 16:28:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1123
+2026/09/02 16:28:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 86: 1.1074
+2026/09/02 16:28:30 - __main__ - INFO - 117 - trainer - Epoch: 87
+2026/09/02 16:28:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1006
+2026/09/02 16:28:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1038
+2026/09/02 16:28:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1114
+2026/09/02 16:28:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1085
+2026/09/02 16:28:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0915
+2026/09/02 16:28:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 87: 1.1060
+2026/09/02 16:28:55 - __main__ - INFO - 117 - trainer - Epoch: 88
+2026/09/02 16:28:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1035
+2026/09/02 16:29:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1149
+2026/09/02 16:29:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1159
+2026/09/02 16:29:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1215
+2026/09/02 16:29:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1176
+2026/09/02 16:29:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 88: 1.1049
+2026/09/02 16:29:21 - __main__ - INFO - 117 - trainer - Epoch: 89
+2026/09/02 16:29:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0682
+2026/09/02 16:29:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1050
+2026/09/02 16:29:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0938
+2026/09/02 16:29:37 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1086
+2026/09/02 16:29:42 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1128
+2026/09/02 16:29:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 89: 1.1043
+2026/09/02 16:29:47 - __main__ - INFO - 117 - trainer - Epoch: 90
+2026/09/02 16:29:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0986
+2026/09/02 16:29:52 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1178
+2026/09/02 16:29:57 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1060
+2026/09/02 16:30:02 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0961
+2026/09/02 16:30:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1050
+2026/09/02 16:30:12 - __main__ - INFO - 167 - trainer - Average loss in epoch 90: 1.1031
+2026/09/02 16:30:12 - __main__ - INFO - 117 - trainer - Epoch: 91
+2026/09/02 16:30:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0822
+2026/09/02 16:30:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0936
+2026/09/02 16:30:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0977
+2026/09/02 16:30:28 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1038
+2026/09/02 16:30:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0913
+2026/09/02 16:30:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 91: 1.1025
+2026/09/02 16:30:38 - __main__ - INFO - 117 - trainer - Epoch: 92
+2026/09/02 16:30:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1098
+2026/09/02 16:30:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1266
+2026/09/02 16:30:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0929
+2026/09/02 16:30:54 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1045
+2026/09/02 16:30:59 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1059
+2026/09/02 16:31:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 92: 1.1013
+2026/09/02 16:31:04 - __main__ - INFO - 117 - trainer - Epoch: 93
+2026/09/02 16:31:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0912
+2026/09/02 16:31:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0848
+2026/09/02 16:31:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0888
+2026/09/02 16:31:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0936
+2026/09/02 16:31:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0964
+2026/09/02 16:31:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 93: 1.1001
+2026/09/02 16:31:29 - __main__ - INFO - 117 - trainer - Epoch: 94
+2026/09/02 16:31:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1021
+2026/09/02 16:31:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0991
+2026/09/02 16:31:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1062
+2026/09/02 16:31:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0939
+2026/09/02 16:31:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0802
+2026/09/02 16:31:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 94: 1.0994
+2026/09/02 16:31:55 - __main__ - INFO - 117 - trainer - Epoch: 95
+2026/09/02 16:31:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1014
+2026/09/02 16:32:00 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1097
+2026/09/02 16:32:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0978
+2026/09/02 16:32:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0914
+2026/09/02 16:32:16 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0851
+2026/09/02 16:32:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 95: 1.0990
+2026/09/02 16:32:20 - __main__ - INFO - 117 - trainer - Epoch: 96
+2026/09/02 16:32:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0856
+2026/09/02 16:32:26 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0832
+2026/09/02 16:32:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0867
+2026/09/02 16:32:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0996
+2026/09/02 16:32:41 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0870
+2026/09/02 16:32:46 - __main__ - INFO - 167 - trainer - Average loss in epoch 96: 1.0983
+2026/09/02 16:32:46 - __main__ - INFO - 117 - trainer - Epoch: 97
+2026/09/02 16:32:46 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0881
+2026/09/02 16:32:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0767
+2026/09/02 16:32:56 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0935
+2026/09/02 16:33:02 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1078
+2026/09/02 16:33:07 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1056
+2026/09/02 16:33:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 97: 1.0968
+2026/09/02 16:33:11 - __main__ - INFO - 117 - trainer - Epoch: 98
+2026/09/02 16:33:11 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0849
+2026/09/02 16:33:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0838
+2026/09/02 16:33:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0856
+2026/09/02 16:33:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0938
+2026/09/02 16:33:32 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1011
+2026/09/02 16:33:36 - __main__ - INFO - 167 - trainer - Average loss in epoch 98: 1.0972
+2026/09/02 16:33:36 - __main__ - INFO - 117 - trainer - Epoch: 99
+2026/09/02 16:33:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0890
+2026/09/02 16:33:42 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0800
+2026/09/02 16:33:47 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0976
+2026/09/02 16:33:52 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0889
+2026/09/02 16:33:57 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0949
+2026/09/02 16:34:02 - __main__ - INFO - 167 - trainer - Average loss in epoch 99: 1.0960
+2026/09/02 16:34:02 - __main__ - INFO - 117 - trainer - Epoch: 100
+2026/09/02 16:34:02 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0762
+2026/09/02 16:34:07 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0950
+2026/09/02 16:34:12 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0723
+2026/09/02 16:34:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0775
+2026/09/02 16:34:23 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0722
+2026/09/02 16:34:27 - __main__ - INFO - 167 - trainer - Average loss in epoch 100: 1.0853
+2026/09/02 16:34:27 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:34:27.663964
+2026/09/02 16:34:30 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(9.6634), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(28.2156), 'Best_NDCG@5': np.float64(5.8676), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(11.0216)}
+2026/09/02 16:34:30 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 100, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 100, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 100}
+2026/09/02 16:34:30 - __main__ - INFO - 117 - trainer - Epoch: 101
+2026/09/02 16:34:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1016
+2026/09/02 16:34:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0960
+2026/09/02 16:34:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0835
+2026/09/02 16:34:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0959
+2026/09/02 16:34:49 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0684
+2026/09/02 16:34:53 - __main__ - INFO - 167 - trainer - Average loss in epoch 101: 1.0834
+2026/09/02 16:34:53 - __main__ - INFO - 117 - trainer - Epoch: 102
+2026/09/02 16:34:53 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0765
+2026/09/02 16:34:58 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0737
+2026/09/02 16:35:03 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0898
+2026/09/02 16:35:08 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1025
+2026/09/02 16:35:13 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0740
+2026/09/02 16:35:17 - __main__ - INFO - 167 - trainer - Average loss in epoch 102: 1.0817
+2026/09/02 16:35:17 - __main__ - INFO - 117 - trainer - Epoch: 103
+2026/09/02 16:35:17 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0818
+2026/09/02 16:35:22 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0827
+2026/09/02 16:35:27 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0768
+2026/09/02 16:35:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0663
+2026/09/02 16:35:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0579
+2026/09/02 16:35:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 103: 1.0817
+2026/09/02 16:35:41 - __main__ - INFO - 117 - trainer - Epoch: 104
+2026/09/02 16:35:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0792
+2026/09/02 16:35:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0881
+2026/09/02 16:35:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0783
+2026/09/02 16:35:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0894
+2026/09/02 16:36:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0721
+2026/09/02 16:36:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 104: 1.0808
+2026/09/02 16:36:04 - __main__ - INFO - 117 - trainer - Epoch: 105
+2026/09/02 16:36:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0722
+2026/09/02 16:36:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0762
+2026/09/02 16:36:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0850
+2026/09/02 16:36:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0629
+2026/09/02 16:36:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0777
+2026/09/02 16:36:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 105: 1.0803
+2026/09/02 16:36:28 - __main__ - INFO - 117 - trainer - Epoch: 106
+2026/09/02 16:36:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0682
+2026/09/02 16:36:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0823
+2026/09/02 16:36:38 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0814
+2026/09/02 16:36:43 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0739
+2026/09/02 16:36:48 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0716
+2026/09/02 16:36:52 - __main__ - INFO - 167 - trainer - Average loss in epoch 106: 1.0797
+2026/09/02 16:36:52 - __main__ - INFO - 117 - trainer - Epoch: 107
+2026/09/02 16:36:52 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0790
+2026/09/02 16:36:57 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0687
+2026/09/02 16:37:02 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1081
+2026/09/02 16:37:07 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0869
+2026/09/02 16:37:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0883
+2026/09/02 16:37:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 107: 1.0796
+2026/09/02 16:37:16 - __main__ - INFO - 117 - trainer - Epoch: 108
+2026/09/02 16:37:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0736
+2026/09/02 16:37:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0676
+2026/09/02 16:37:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0853
+2026/09/02 16:37:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0783
+2026/09/02 16:37:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0707
+2026/09/02 16:37:40 - __main__ - INFO - 167 - trainer - Average loss in epoch 108: 1.0785
+2026/09/02 16:37:40 - __main__ - INFO - 117 - trainer - Epoch: 109
+2026/09/02 16:37:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0945
+2026/09/02 16:37:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0757
+2026/09/02 16:37:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0750
+2026/09/02 16:37:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0769
+2026/09/02 16:38:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0520
+2026/09/02 16:38:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 109: 1.0786
+2026/09/02 16:38:04 - __main__ - INFO - 117 - trainer - Epoch: 110
+2026/09/02 16:38:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0971
+2026/09/02 16:38:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0933
+2026/09/02 16:38:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0926
+2026/09/02 16:38:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0885
+2026/09/02 16:38:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0918
+2026/09/02 16:38:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 110: 1.0781
+2026/09/02 16:38:28 - __main__ - INFO - 117 - trainer - Epoch: 111
+2026/09/02 16:38:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0776
+2026/09/02 16:38:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0872
+2026/09/02 16:38:38 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0754
+2026/09/02 16:38:43 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0886
+2026/09/02 16:38:48 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0996
+2026/09/02 16:38:52 - __main__ - INFO - 167 - trainer - Average loss in epoch 111: 1.0783
+2026/09/02 16:38:52 - __main__ - INFO - 117 - trainer - Epoch: 112
+2026/09/02 16:38:52 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0733
+2026/09/02 16:38:57 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0725
+2026/09/02 16:39:02 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0860
+2026/09/02 16:39:07 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0805
+2026/09/02 16:39:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0998
+2026/09/02 16:39:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 112: 1.0778
+2026/09/02 16:39:16 - __main__ - INFO - 117 - trainer - Epoch: 113
+2026/09/02 16:39:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0754
+2026/09/02 16:39:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0704
+2026/09/02 16:39:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0944
+2026/09/02 16:39:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0811
+2026/09/02 16:39:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0576
+2026/09/02 16:39:40 - __main__ - INFO - 167 - trainer - Average loss in epoch 113: 1.0777
+2026/09/02 16:39:40 - __main__ - INFO - 117 - trainer - Epoch: 114
+2026/09/02 16:39:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0566
+2026/09/02 16:39:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.1008
+2026/09/02 16:39:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.1046
+2026/09/02 16:39:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0778
+2026/09/02 16:40:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0540
+2026/09/02 16:40:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 114: 1.0770
+2026/09/02 16:40:04 - __main__ - INFO - 117 - trainer - Epoch: 115
+2026/09/02 16:40:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0621
+2026/09/02 16:40:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0675
+2026/09/02 16:40:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0720
+2026/09/02 16:40:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0635
+2026/09/02 16:40:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0819
+2026/09/02 16:40:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 115: 1.0765
+2026/09/02 16:40:28 - __main__ - INFO - 117 - trainer - Epoch: 116
+2026/09/02 16:40:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0812
+2026/09/02 16:40:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0921
+2026/09/02 16:40:38 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0629
+2026/09/02 16:40:43 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0731
+2026/09/02 16:40:48 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0681
+2026/09/02 16:40:52 - __main__ - INFO - 167 - trainer - Average loss in epoch 116: 1.0770
+2026/09/02 16:40:52 - __main__ - INFO - 117 - trainer - Epoch: 117
+2026/09/02 16:40:52 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0777
+2026/09/02 16:40:57 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0754
+2026/09/02 16:41:02 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0752
+2026/09/02 16:41:07 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0660
+2026/09/02 16:41:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0842
+2026/09/02 16:41:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 117: 1.0763
+2026/09/02 16:41:16 - __main__ - INFO - 117 - trainer - Epoch: 118
+2026/09/02 16:41:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0764
+2026/09/02 16:41:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0705
+2026/09/02 16:41:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0388
+2026/09/02 16:41:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0797
+2026/09/02 16:41:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0882
+2026/09/02 16:41:40 - __main__ - INFO - 167 - trainer - Average loss in epoch 118: 1.0767
+2026/09/02 16:41:40 - __main__ - INFO - 117 - trainer - Epoch: 119
+2026/09/02 16:41:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0637
+2026/09/02 16:41:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0565
+2026/09/02 16:41:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0600
+2026/09/02 16:41:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0766
+2026/09/02 16:42:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0793
+2026/09/02 16:42:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 119: 1.0758
+2026/09/02 16:42:04 - __main__ - INFO - 117 - trainer - Epoch: 120
+2026/09/02 16:42:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0510
+2026/09/02 16:42:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0759
+2026/09/02 16:42:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0802
+2026/09/02 16:42:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0619
+2026/09/02 16:42:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0697
+2026/09/02 16:42:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 120: 1.0756
+2026/09/02 16:42:28 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:42:28.312106
+2026/09/02 16:42:30 - __main__ - INFO - 117 - trainer - Epoch: 121
+2026/09/02 16:42:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0932
+2026/09/02 16:42:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0679
+2026/09/02 16:42:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0582
+2026/09/02 16:42:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0756
+2026/09/02 16:42:49 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0771
+2026/09/02 16:42:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 121: 1.0754
+2026/09/02 16:42:54 - __main__ - INFO - 117 - trainer - Epoch: 122
+2026/09/02 16:42:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0769
+2026/09/02 16:42:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0790
+2026/09/02 16:43:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0754
+2026/09/02 16:43:09 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0662
+2026/09/02 16:43:14 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0720
+2026/09/02 16:43:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 122: 1.0753
+2026/09/02 16:43:18 - __main__ - INFO - 117 - trainer - Epoch: 123
+2026/09/02 16:43:18 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0721
+2026/09/02 16:43:23 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0768
+2026/09/02 16:43:28 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0833
+2026/09/02 16:43:33 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0683
+2026/09/02 16:43:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0638
+2026/09/02 16:43:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 123: 1.0755
+2026/09/02 16:43:42 - __main__ - INFO - 117 - trainer - Epoch: 124
+2026/09/02 16:43:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0923
+2026/09/02 16:43:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0646
+2026/09/02 16:43:51 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0726
+2026/09/02 16:43:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.1005
+2026/09/02 16:44:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0632
+2026/09/02 16:44:06 - __main__ - INFO - 167 - trainer - Average loss in epoch 124: 1.0744
+2026/09/02 16:44:06 - __main__ - INFO - 117 - trainer - Epoch: 125
+2026/09/02 16:44:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0683
+2026/09/02 16:44:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0732
+2026/09/02 16:44:16 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0786
+2026/09/02 16:44:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0728
+2026/09/02 16:44:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0973
+2026/09/02 16:44:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 125: 1.0748
+2026/09/02 16:44:30 - __main__ - INFO - 117 - trainer - Epoch: 126
+2026/09/02 16:44:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0620
+2026/09/02 16:44:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0887
+2026/09/02 16:44:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0888
+2026/09/02 16:44:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0880
+2026/09/02 16:44:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0820
+2026/09/02 16:44:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 126: 1.0745
+2026/09/02 16:44:54 - __main__ - INFO - 117 - trainer - Epoch: 127
+2026/09/02 16:44:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0507
+2026/09/02 16:44:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0576
+2026/09/02 16:45:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0892
+2026/09/02 16:45:09 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0799
+2026/09/02 16:45:13 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0635
+2026/09/02 16:45:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 127: 1.0736
+2026/09/02 16:45:18 - __main__ - INFO - 117 - trainer - Epoch: 128
+2026/09/02 16:45:18 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0709
+2026/09/02 16:45:23 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0903
+2026/09/02 16:45:28 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0791
+2026/09/02 16:45:33 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0757
+2026/09/02 16:45:38 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0826
+2026/09/02 16:45:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 128: 1.0736
+2026/09/02 16:45:42 - __main__ - INFO - 117 - trainer - Epoch: 129
+2026/09/02 16:45:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.1042
+2026/09/02 16:45:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0777
+2026/09/02 16:45:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0782
+2026/09/02 16:45:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0832
+2026/09/02 16:46:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0779
+2026/09/02 16:46:06 - __main__ - INFO - 167 - trainer - Average loss in epoch 129: 1.0736
+2026/09/02 16:46:06 - __main__ - INFO - 117 - trainer - Epoch: 130
+2026/09/02 16:46:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0808
+2026/09/02 16:46:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0660
+2026/09/02 16:46:16 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0672
+2026/09/02 16:46:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0709
+2026/09/02 16:46:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0808
+2026/09/02 16:46:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 130: 1.0738
+2026/09/02 16:46:30 - __main__ - INFO - 117 - trainer - Epoch: 131
+2026/09/02 16:46:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0780
+2026/09/02 16:46:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0540
+2026/09/02 16:46:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0730
+2026/09/02 16:46:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0515
+2026/09/02 16:46:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0740
+2026/09/02 16:46:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 131: 1.0734
+2026/09/02 16:46:54 - __main__ - INFO - 117 - trainer - Epoch: 132
+2026/09/02 16:46:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0934
+2026/09/02 16:46:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0408
+2026/09/02 16:47:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0777
+2026/09/02 16:47:09 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0711
+2026/09/02 16:47:14 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0550
+2026/09/02 16:47:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 132: 1.0735
+2026/09/02 16:47:18 - __main__ - INFO - 117 - trainer - Epoch: 133
+2026/09/02 16:47:18 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0745
+2026/09/02 16:47:23 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0791
+2026/09/02 16:47:28 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0738
+2026/09/02 16:47:33 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0858
+2026/09/02 16:47:38 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0749
+2026/09/02 16:47:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 133: 1.0734
+2026/09/02 16:47:42 - __main__ - INFO - 117 - trainer - Epoch: 134
+2026/09/02 16:47:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0717
+2026/09/02 16:47:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0690
+2026/09/02 16:47:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0622
+2026/09/02 16:47:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0931
+2026/09/02 16:48:01 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0616
+2026/09/02 16:48:06 - __main__ - INFO - 167 - trainer - Average loss in epoch 134: 1.0739
+2026/09/02 16:48:06 - __main__ - INFO - 117 - trainer - Epoch: 135
+2026/09/02 16:48:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0652
+2026/09/02 16:48:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0684
+2026/09/02 16:48:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0753
+2026/09/02 16:48:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0603
+2026/09/02 16:48:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0712
+2026/09/02 16:48:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 135: 1.0732
+2026/09/02 16:48:30 - __main__ - INFO - 117 - trainer - Epoch: 136
+2026/09/02 16:48:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0836
+2026/09/02 16:48:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0852
+2026/09/02 16:48:39 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0691
+2026/09/02 16:48:44 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0654
+2026/09/02 16:48:49 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0707
+2026/09/02 16:48:53 - __main__ - INFO - 167 - trainer - Average loss in epoch 136: 1.0727
+2026/09/02 16:48:53 - __main__ - INFO - 117 - trainer - Epoch: 137
+2026/09/02 16:48:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0801
+2026/09/02 16:48:58 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0618
+2026/09/02 16:49:03 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0812
+2026/09/02 16:49:08 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0742
+2026/09/02 16:49:13 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0812
+2026/09/02 16:49:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 137: 1.0720
+2026/09/02 16:49:18 - __main__ - INFO - 117 - trainer - Epoch: 138
+2026/09/02 16:49:18 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0732
+2026/09/02 16:49:23 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0856
+2026/09/02 16:49:28 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0712
+2026/09/02 16:49:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0831
+2026/09/02 16:49:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0447
+2026/09/02 16:49:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 138: 1.0720
+2026/09/02 16:49:41 - __main__ - INFO - 117 - trainer - Epoch: 139
+2026/09/02 16:49:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0528
+2026/09/02 16:49:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0615
+2026/09/02 16:49:51 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0827
+2026/09/02 16:49:56 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0705
+2026/09/02 16:50:01 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.1044
+2026/09/02 16:50:05 - __main__ - INFO - 167 - trainer - Average loss in epoch 139: 1.0719
+2026/09/02 16:50:05 - __main__ - INFO - 117 - trainer - Epoch: 140
+2026/09/02 16:50:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0785
+2026/09/02 16:50:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0481
+2026/09/02 16:50:16 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0801
+2026/09/02 16:50:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0658
+2026/09/02 16:50:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0455
+2026/09/02 16:50:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 140: 1.0723
+2026/09/02 16:50:30 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:50:30.150219
+2026/09/02 16:50:32 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(9.706), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(28.2156), 'Best_NDCG@5': np.float64(5.8676), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(11.0216)}
+2026/09/02 16:50:32 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 140, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 100, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 100}
+2026/09/02 16:50:32 - __main__ - INFO - 117 - trainer - Epoch: 141
+2026/09/02 16:50:32 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0465
+2026/09/02 16:50:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0870
+2026/09/02 16:50:43 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0504
+2026/09/02 16:50:48 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0752
+2026/09/02 16:50:54 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0618
+2026/09/02 16:50:58 - __main__ - INFO - 167 - trainer - Average loss in epoch 141: 1.0717
+2026/09/02 16:50:58 - __main__ - INFO - 117 - trainer - Epoch: 142
+2026/09/02 16:50:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0770
+2026/09/02 16:51:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0702
+2026/09/02 16:51:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0715
+2026/09/02 16:51:14 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0484
+2026/09/02 16:51:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0613
+2026/09/02 16:51:24 - __main__ - INFO - 167 - trainer - Average loss in epoch 142: 1.0716
+2026/09/02 16:51:24 - __main__ - INFO - 117 - trainer - Epoch: 143
+2026/09/02 16:51:24 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0847
+2026/09/02 16:51:29 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0452
+2026/09/02 16:51:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0755
+2026/09/02 16:51:40 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0774
+2026/09/02 16:51:45 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0762
+2026/09/02 16:51:49 - __main__ - INFO - 167 - trainer - Average loss in epoch 143: 1.0713
+2026/09/02 16:51:49 - __main__ - INFO - 117 - trainer - Epoch: 144
+2026/09/02 16:51:49 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0581
+2026/09/02 16:51:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0355
+2026/09/02 16:52:00 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0693
+2026/09/02 16:52:05 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0663
+2026/09/02 16:52:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0674
+2026/09/02 16:52:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 144: 1.0711
+2026/09/02 16:52:14 - __main__ - INFO - 117 - trainer - Epoch: 145
+2026/09/02 16:52:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0835
+2026/09/02 16:52:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0712
+2026/09/02 16:52:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0547
+2026/09/02 16:52:30 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0677
+2026/09/02 16:52:35 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0500
+2026/09/02 16:52:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 145: 1.0711
+2026/09/02 16:52:39 - __main__ - INFO - 117 - trainer - Epoch: 146
+2026/09/02 16:52:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0687
+2026/09/02 16:52:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0561
+2026/09/02 16:52:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0546
+2026/09/02 16:52:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0686
+2026/09/02 16:53:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0579
+2026/09/02 16:53:05 - __main__ - INFO - 167 - trainer - Average loss in epoch 146: 1.0704
+2026/09/02 16:53:05 - __main__ - INFO - 117 - trainer - Epoch: 147
+2026/09/02 16:53:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0743
+2026/09/02 16:53:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0610
+2026/09/02 16:53:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0755
+2026/09/02 16:53:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0621
+2026/09/02 16:53:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0722
+2026/09/02 16:53:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 147: 1.0705
+2026/09/02 16:53:30 - __main__ - INFO - 117 - trainer - Epoch: 148
+2026/09/02 16:53:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0900
+2026/09/02 16:53:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0829
+2026/09/02 16:53:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0809
+2026/09/02 16:53:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0914
+2026/09/02 16:53:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0517
+2026/09/02 16:53:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 148: 1.0708
+2026/09/02 16:53:55 - __main__ - INFO - 117 - trainer - Epoch: 149
+2026/09/02 16:53:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0743
+2026/09/02 16:54:00 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0499
+2026/09/02 16:54:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0575
+2026/09/02 16:54:10 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0672
+2026/09/02 16:54:16 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0742
+2026/09/02 16:54:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 149: 1.0702
+2026/09/02 16:54:20 - __main__ - INFO - 117 - trainer - Epoch: 150
+2026/09/02 16:54:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0457
+2026/09/02 16:54:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0392
+2026/09/02 16:54:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0698
+2026/09/02 16:54:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0745
+2026/09/02 16:54:41 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0956
+2026/09/02 16:54:45 - __main__ - INFO - 167 - trainer - Average loss in epoch 150: 1.0705
+2026/09/02 16:54:45 - __main__ - INFO - 117 - trainer - Epoch: 151
+2026/09/02 16:54:46 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0704
+2026/09/02 16:54:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0965
+2026/09/02 16:54:56 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0807
+2026/09/02 16:55:01 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0596
+2026/09/02 16:55:06 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0684
+2026/09/02 16:55:10 - __main__ - INFO - 167 - trainer - Average loss in epoch 151: 1.0702
+2026/09/02 16:55:10 - __main__ - INFO - 117 - trainer - Epoch: 152
+2026/09/02 16:55:10 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0638
+2026/09/02 16:55:15 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0974
+2026/09/02 16:55:21 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0451
+2026/09/02 16:55:26 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0669
+2026/09/02 16:55:31 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0978
+2026/09/02 16:55:35 - __main__ - INFO - 167 - trainer - Average loss in epoch 152: 1.0703
+2026/09/02 16:55:35 - __main__ - INFO - 117 - trainer - Epoch: 153
+2026/09/02 16:55:35 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0445
+2026/09/02 16:55:40 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0688
+2026/09/02 16:55:45 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0648
+2026/09/02 16:55:51 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0744
+2026/09/02 16:55:56 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0755
+2026/09/02 16:56:00 - __main__ - INFO - 167 - trainer - Average loss in epoch 153: 1.0695
+2026/09/02 16:56:00 - __main__ - INFO - 117 - trainer - Epoch: 154
+2026/09/02 16:56:00 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0846
+2026/09/02 16:56:06 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0632
+2026/09/02 16:56:11 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0588
+2026/09/02 16:56:16 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0817
+2026/09/02 16:56:21 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0676
+2026/09/02 16:56:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 154: 1.0688
+2026/09/02 16:56:25 - __main__ - INFO - 117 - trainer - Epoch: 155
+2026/09/02 16:56:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0676
+2026/09/02 16:56:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0660
+2026/09/02 16:56:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0815
+2026/09/02 16:56:40 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0657
+2026/09/02 16:56:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0718
+2026/09/02 16:56:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 155: 1.0690
+2026/09/02 16:56:50 - __main__ - INFO - 117 - trainer - Epoch: 156
+2026/09/02 16:56:50 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0462
+2026/09/02 16:56:55 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0844
+2026/09/02 16:57:00 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0608
+2026/09/02 16:57:05 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0657
+2026/09/02 16:57:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0608
+2026/09/02 16:57:15 - __main__ - INFO - 167 - trainer - Average loss in epoch 156: 1.0691
+2026/09/02 16:57:15 - __main__ - INFO - 117 - trainer - Epoch: 157
+2026/09/02 16:57:15 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0615
+2026/09/02 16:57:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0526
+2026/09/02 16:57:25 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0873
+2026/09/02 16:57:30 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0815
+2026/09/02 16:57:35 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0610
+2026/09/02 16:57:40 - __main__ - INFO - 167 - trainer - Average loss in epoch 157: 1.0700
+2026/09/02 16:57:40 - __main__ - INFO - 117 - trainer - Epoch: 158
+2026/09/02 16:57:40 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0747
+2026/09/02 16:57:45 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0638
+2026/09/02 16:57:50 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0558
+2026/09/02 16:57:56 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0878
+2026/09/02 16:58:01 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0650
+2026/09/02 16:58:05 - __main__ - INFO - 167 - trainer - Average loss in epoch 158: 1.0690
+2026/09/02 16:58:05 - __main__ - INFO - 117 - trainer - Epoch: 159
+2026/09/02 16:58:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0544
+2026/09/02 16:58:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0816
+2026/09/02 16:58:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0664
+2026/09/02 16:58:21 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0827
+2026/09/02 16:58:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0807
+2026/09/02 16:58:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 159: 1.0692
+2026/09/02 16:58:30 - __main__ - INFO - 117 - trainer - Epoch: 160
+2026/09/02 16:58:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0724
+2026/09/02 16:58:36 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0567
+2026/09/02 16:58:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0501
+2026/09/02 16:58:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0809
+2026/09/02 16:58:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0821
+2026/09/02 16:58:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 160: 1.0689
+2026/09/02 16:58:56 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 16:58:56.025070
+2026/09/02 16:58:58 - __main__ - INFO - 117 - trainer - Epoch: 161
+2026/09/02 16:58:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0774
+2026/09/02 16:59:03 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0564
+2026/09/02 16:59:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0736
+2026/09/02 16:59:14 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0686
+2026/09/02 16:59:19 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0622
+2026/09/02 16:59:24 - __main__ - INFO - 167 - trainer - Average loss in epoch 161: 1.0687
+2026/09/02 16:59:24 - __main__ - INFO - 117 - trainer - Epoch: 162
+2026/09/02 16:59:24 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0894
+2026/09/02 16:59:29 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0907
+2026/09/02 16:59:34 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0682
+2026/09/02 16:59:40 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0660
+2026/09/02 16:59:45 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0565
+2026/09/02 16:59:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 162: 1.0680
+2026/09/02 16:59:50 - __main__ - INFO - 117 - trainer - Epoch: 163
+2026/09/02 16:59:50 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0663
+2026/09/02 16:59:55 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0732
+2026/09/02 17:00:00 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0491
+2026/09/02 17:00:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0842
+2026/09/02 17:00:11 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0610
+2026/09/02 17:00:15 - __main__ - INFO - 167 - trainer - Average loss in epoch 163: 1.0678
+2026/09/02 17:00:15 - __main__ - INFO - 117 - trainer - Epoch: 164
+2026/09/02 17:00:15 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0624
+2026/09/02 17:00:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0634
+2026/09/02 17:00:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0511
+2026/09/02 17:00:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0617
+2026/09/02 17:00:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0672
+2026/09/02 17:00:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 164: 1.0684
+2026/09/02 17:00:41 - __main__ - INFO - 117 - trainer - Epoch: 165
+2026/09/02 17:00:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0669
+2026/09/02 17:00:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0749
+2026/09/02 17:00:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0727
+2026/09/02 17:00:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0733
+2026/09/02 17:01:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0465
+2026/09/02 17:01:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 165: 1.0685
+2026/09/02 17:01:07 - __main__ - INFO - 117 - trainer - Epoch: 166
+2026/09/02 17:01:07 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0593
+2026/09/02 17:01:12 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0733
+2026/09/02 17:01:17 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0543
+2026/09/02 17:01:22 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0533
+2026/09/02 17:01:28 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0743
+2026/09/02 17:01:32 - __main__ - INFO - 167 - trainer - Average loss in epoch 166: 1.0677
+2026/09/02 17:01:32 - __main__ - INFO - 117 - trainer - Epoch: 167
+2026/09/02 17:01:32 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0739
+2026/09/02 17:01:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0630
+2026/09/02 17:01:43 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0647
+2026/09/02 17:01:48 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0672
+2026/09/02 17:01:53 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0809
+2026/09/02 17:01:57 - __main__ - INFO - 167 - trainer - Average loss in epoch 167: 1.0680
+2026/09/02 17:01:57 - __main__ - INFO - 117 - trainer - Epoch: 168
+2026/09/02 17:01:58 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0641
+2026/09/02 17:02:03 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0626
+2026/09/02 17:02:08 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0661
+2026/09/02 17:02:13 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0212
+2026/09/02 17:02:18 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0544
+2026/09/02 17:02:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 168: 1.0674
+2026/09/02 17:02:22 - __main__ - INFO - 117 - trainer - Epoch: 169
+2026/09/02 17:02:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0712
+2026/09/02 17:02:28 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0547
+2026/09/02 17:02:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0738
+2026/09/02 17:02:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0599
+2026/09/02 17:02:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0693
+2026/09/02 17:02:48 - __main__ - INFO - 167 - trainer - Average loss in epoch 169: 1.0673
+2026/09/02 17:02:48 - __main__ - INFO - 117 - trainer - Epoch: 170
+2026/09/02 17:02:48 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0673
+2026/09/02 17:02:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0629
+2026/09/02 17:02:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0765
+2026/09/02 17:03:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0884
+2026/09/02 17:03:09 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0542
+2026/09/02 17:03:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 170: 1.0676
+2026/09/02 17:03:13 - __main__ - INFO - 117 - trainer - Epoch: 171
+2026/09/02 17:03:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0429
+2026/09/02 17:03:19 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0850
+2026/09/02 17:03:24 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0838
+2026/09/02 17:03:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0727
+2026/09/02 17:03:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0830
+2026/09/02 17:03:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 171: 1.0672
+2026/09/02 17:03:38 - __main__ - INFO - 117 - trainer - Epoch: 172
+2026/09/02 17:03:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0596
+2026/09/02 17:03:44 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0720
+2026/09/02 17:03:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0391
+2026/09/02 17:03:54 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0654
+2026/09/02 17:03:59 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0782
+2026/09/02 17:04:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 172: 1.0664
+2026/09/02 17:04:04 - __main__ - INFO - 117 - trainer - Epoch: 173
+2026/09/02 17:04:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0591
+2026/09/02 17:04:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0639
+2026/09/02 17:04:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0463
+2026/09/02 17:04:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0569
+2026/09/02 17:04:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0609
+2026/09/02 17:04:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 173: 1.0668
+2026/09/02 17:04:29 - __main__ - INFO - 117 - trainer - Epoch: 174
+2026/09/02 17:04:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0420
+2026/09/02 17:04:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0710
+2026/09/02 17:04:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0700
+2026/09/02 17:04:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0585
+2026/09/02 17:04:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0569
+2026/09/02 17:04:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 174: 1.0665
+2026/09/02 17:04:54 - __main__ - INFO - 117 - trainer - Epoch: 175
+2026/09/02 17:04:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0488
+2026/09/02 17:04:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0748
+2026/09/02 17:05:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0727
+2026/09/02 17:05:10 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0492
+2026/09/02 17:05:15 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0878
+2026/09/02 17:05:19 - __main__ - INFO - 167 - trainer - Average loss in epoch 175: 1.0672
+2026/09/02 17:05:19 - __main__ - INFO - 117 - trainer - Epoch: 176
+2026/09/02 17:05:19 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0982
+2026/09/02 17:05:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0684
+2026/09/02 17:05:30 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0829
+2026/09/02 17:05:35 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0806
+2026/09/02 17:05:41 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0639
+2026/09/02 17:05:45 - __main__ - INFO - 167 - trainer - Average loss in epoch 176: 1.0668
+2026/09/02 17:05:45 - __main__ - INFO - 117 - trainer - Epoch: 177
+2026/09/02 17:05:45 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0584
+2026/09/02 17:05:50 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0724
+2026/09/02 17:05:56 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0880
+2026/09/02 17:06:01 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0356
+2026/09/02 17:06:06 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0681
+2026/09/02 17:06:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 177: 1.0661
+2026/09/02 17:06:11 - __main__ - INFO - 117 - trainer - Epoch: 178
+2026/09/02 17:06:11 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0723
+2026/09/02 17:06:16 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0596
+2026/09/02 17:06:21 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0804
+2026/09/02 17:06:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0663
+2026/09/02 17:06:32 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0736
+2026/09/02 17:06:36 - __main__ - INFO - 167 - trainer - Average loss in epoch 178: 1.0661
+2026/09/02 17:06:36 - __main__ - INFO - 117 - trainer - Epoch: 179
+2026/09/02 17:06:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0945
+2026/09/02 17:06:42 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0701
+2026/09/02 17:06:47 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0730
+2026/09/02 17:06:52 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0603
+2026/09/02 17:06:58 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0580
+2026/09/02 17:07:02 - __main__ - INFO - 167 - trainer - Average loss in epoch 179: 1.0658
+2026/09/02 17:07:02 - __main__ - INFO - 117 - trainer - Epoch: 180
+2026/09/02 17:07:02 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0780
+2026/09/02 17:07:07 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0663
+2026/09/02 17:07:13 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0944
+2026/09/02 17:07:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0675
+2026/09/02 17:07:23 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0710
+2026/09/02 17:07:27 - __main__ - INFO - 167 - trainer - Average loss in epoch 180: 1.0658
+2026/09/02 17:07:27 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:07:27.908054
+2026/09/02 17:07:30 - __main__ - INFO - 117 - trainer - Epoch: 181
+2026/09/02 17:07:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0667
+2026/09/02 17:07:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0561
+2026/09/02 17:07:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0371
+2026/09/02 17:07:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0781
+2026/09/02 17:07:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0920
+2026/09/02 17:07:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 181: 1.0661
+2026/09/02 17:07:55 - __main__ - INFO - 117 - trainer - Epoch: 182
+2026/09/02 17:07:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0772
+2026/09/02 17:08:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0639
+2026/09/02 17:08:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0940
+2026/09/02 17:08:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0765
+2026/09/02 17:08:16 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0594
+2026/09/02 17:08:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 182: 1.0651
+2026/09/02 17:08:20 - __main__ - INFO - 117 - trainer - Epoch: 183
+2026/09/02 17:08:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0641
+2026/09/02 17:08:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0687
+2026/09/02 17:08:30 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0613
+2026/09/02 17:08:35 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0444
+2026/09/02 17:08:40 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0601
+2026/09/02 17:08:44 - __main__ - INFO - 167 - trainer - Average loss in epoch 183: 1.0661
+2026/09/02 17:08:44 - __main__ - INFO - 117 - trainer - Epoch: 184
+2026/09/02 17:08:44 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0762
+2026/09/02 17:08:49 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0554
+2026/09/02 17:08:54 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0657
+2026/09/02 17:08:59 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0673
+2026/09/02 17:09:04 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0545
+2026/09/02 17:09:08 - __main__ - INFO - 167 - trainer - Average loss in epoch 184: 1.0650
+2026/09/02 17:09:08 - __main__ - INFO - 117 - trainer - Epoch: 185
+2026/09/02 17:09:09 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0378
+2026/09/02 17:09:14 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0520
+2026/09/02 17:09:19 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0595
+2026/09/02 17:09:24 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0617
+2026/09/02 17:09:28 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0678
+2026/09/02 17:09:32 - __main__ - INFO - 167 - trainer - Average loss in epoch 185: 1.0641
+2026/09/02 17:09:32 - __main__ - INFO - 117 - trainer - Epoch: 186
+2026/09/02 17:09:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0640
+2026/09/02 17:09:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0725
+2026/09/02 17:09:42 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0632
+2026/09/02 17:09:47 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0698
+2026/09/02 17:09:52 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0870
+2026/09/02 17:09:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 186: 1.0651
+2026/09/02 17:09:56 - __main__ - INFO - 117 - trainer - Epoch: 187
+2026/09/02 17:09:57 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0430
+2026/09/02 17:10:02 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0762
+2026/09/02 17:10:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0612
+2026/09/02 17:10:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0580
+2026/09/02 17:10:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0663
+2026/09/02 17:10:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 187: 1.0648
+2026/09/02 17:10:21 - __main__ - INFO - 117 - trainer - Epoch: 188
+2026/09/02 17:10:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0724
+2026/09/02 17:10:26 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0592
+2026/09/02 17:10:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0943
+2026/09/02 17:10:35 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0641
+2026/09/02 17:10:40 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0754
+2026/09/02 17:10:45 - __main__ - INFO - 167 - trainer - Average loss in epoch 188: 1.0643
+2026/09/02 17:10:45 - __main__ - INFO - 117 - trainer - Epoch: 189
+2026/09/02 17:10:45 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0466
+2026/09/02 17:10:50 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0511
+2026/09/02 17:10:55 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0489
+2026/09/02 17:11:00 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0678
+2026/09/02 17:11:05 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0607
+2026/09/02 17:11:09 - __main__ - INFO - 167 - trainer - Average loss in epoch 189: 1.0649
+2026/09/02 17:11:09 - __main__ - INFO - 117 - trainer - Epoch: 190
+2026/09/02 17:11:09 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0526
+2026/09/02 17:11:14 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0866
+2026/09/02 17:11:19 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0801
+2026/09/02 17:11:24 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0570
+2026/09/02 17:11:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0639
+2026/09/02 17:11:34 - __main__ - INFO - 167 - trainer - Average loss in epoch 190: 1.0649
+2026/09/02 17:11:34 - __main__ - INFO - 117 - trainer - Epoch: 191
+2026/09/02 17:11:34 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0747
+2026/09/02 17:11:39 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0860
+2026/09/02 17:11:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0648
+2026/09/02 17:11:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0406
+2026/09/02 17:11:54 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0715
+2026/09/02 17:11:58 - __main__ - INFO - 167 - trainer - Average loss in epoch 191: 1.0651
+2026/09/02 17:11:58 - __main__ - INFO - 117 - trainer - Epoch: 192
+2026/09/02 17:11:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0562
+2026/09/02 17:12:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0700
+2026/09/02 17:12:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0561
+2026/09/02 17:12:14 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0890
+2026/09/02 17:12:19 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0821
+2026/09/02 17:12:23 - __main__ - INFO - 167 - trainer - Average loss in epoch 192: 1.0647
+2026/09/02 17:12:23 - __main__ - INFO - 117 - trainer - Epoch: 193
+2026/09/02 17:12:23 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0422
+2026/09/02 17:12:28 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0540
+2026/09/02 17:12:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0744
+2026/09/02 17:12:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0663
+2026/09/02 17:12:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0687
+2026/09/02 17:12:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 193: 1.0641
+2026/09/02 17:12:47 - __main__ - INFO - 117 - trainer - Epoch: 194
+2026/09/02 17:12:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0725
+2026/09/02 17:12:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0520
+2026/09/02 17:12:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0624
+2026/09/02 17:13:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0629
+2026/09/02 17:13:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0594
+2026/09/02 17:13:12 - __main__ - INFO - 167 - trainer - Average loss in epoch 194: 1.0639
+2026/09/02 17:13:12 - __main__ - INFO - 117 - trainer - Epoch: 195
+2026/09/02 17:13:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0699
+2026/09/02 17:13:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0762
+2026/09/02 17:13:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0668
+2026/09/02 17:13:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0736
+2026/09/02 17:13:32 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0640
+2026/09/02 17:13:36 - __main__ - INFO - 167 - trainer - Average loss in epoch 195: 1.0635
+2026/09/02 17:13:36 - __main__ - INFO - 117 - trainer - Epoch: 196
+2026/09/02 17:13:36 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0387
+2026/09/02 17:13:41 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0674
+2026/09/02 17:13:46 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0412
+2026/09/02 17:13:51 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0792
+2026/09/02 17:13:56 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0546
+2026/09/02 17:14:00 - __main__ - INFO - 167 - trainer - Average loss in epoch 196: 1.0640
+2026/09/02 17:14:00 - __main__ - INFO - 117 - trainer - Epoch: 197
+2026/09/02 17:14:01 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0813
+2026/09/02 17:14:06 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0578
+2026/09/02 17:14:11 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0645
+2026/09/02 17:14:16 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0733
+2026/09/02 17:14:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0909
+2026/09/02 17:14:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 197: 1.0637
+2026/09/02 17:14:25 - __main__ - INFO - 117 - trainer - Epoch: 198
+2026/09/02 17:14:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0567
+2026/09/02 17:14:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0689
+2026/09/02 17:14:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0556
+2026/09/02 17:14:40 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0819
+2026/09/02 17:14:45 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0717
+2026/09/02 17:14:49 - __main__ - INFO - 167 - trainer - Average loss in epoch 198: 1.0641
+2026/09/02 17:14:49 - __main__ - INFO - 117 - trainer - Epoch: 199
+2026/09/02 17:14:49 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0607
+2026/09/02 17:14:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0512
+2026/09/02 17:14:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0616
+2026/09/02 17:15:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0906
+2026/09/02 17:15:09 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0554
+2026/09/02 17:15:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 199: 1.0640
+2026/09/02 17:15:13 - __main__ - INFO - 117 - trainer - Epoch: 200
+2026/09/02 17:15:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0585
+2026/09/02 17:15:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0685
+2026/09/02 17:15:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0650
+2026/09/02 17:15:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0380
+2026/09/02 17:15:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0677
+2026/09/02 17:15:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 200: 1.0616
+2026/09/02 17:15:38 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:15:38.414623
+2026/09/02 17:15:41 - __main__ - INFO - 203 - trainer - {'Best_HR@5': np.float64(9.8404), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(28.2156), 'Best_NDCG@5': np.float64(5.8676), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(11.0216)}
+2026/09/02 17:15:41 - __main__ - INFO - 204 - trainer - {'Best_epoch_HR@5': 200, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 100, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 100}
+2026/09/02 17:15:41 - __main__ - INFO - 117 - trainer - Epoch: 201
+2026/09/02 17:15:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0554
+2026/09/02 17:15:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0612
+2026/09/02 17:15:51 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0598
+2026/09/02 17:15:56 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0601
+2026/09/02 17:16:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0509
+2026/09/02 17:16:06 - __main__ - INFO - 167 - trainer - Average loss in epoch 201: 1.0609
+2026/09/02 17:16:06 - __main__ - INFO - 117 - trainer - Epoch: 202
+2026/09/02 17:16:06 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0899
+2026/09/02 17:16:11 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0704
+2026/09/02 17:16:17 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0549
+2026/09/02 17:16:22 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0522
+2026/09/02 17:16:27 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0631
+2026/09/02 17:16:31 - __main__ - INFO - 167 - trainer - Average loss in epoch 202: 1.0624
+2026/09/02 17:16:31 - __main__ - INFO - 117 - trainer - Epoch: 203
+2026/09/02 17:16:31 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0633
+2026/09/02 17:16:37 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0554
+2026/09/02 17:16:42 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0468
+2026/09/02 17:16:47 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0604
+2026/09/02 17:16:52 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0777
+2026/09/02 17:16:57 - __main__ - INFO - 167 - trainer - Average loss in epoch 203: 1.0618
+2026/09/02 17:16:57 - __main__ - INFO - 117 - trainer - Epoch: 204
+2026/09/02 17:16:57 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0543
+2026/09/02 17:17:02 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0632
+2026/09/02 17:17:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0713
+2026/09/02 17:17:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0671
+2026/09/02 17:17:18 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0758
+2026/09/02 17:17:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 204: 1.0615
+2026/09/02 17:17:22 - __main__ - INFO - 117 - trainer - Epoch: 205
+2026/09/02 17:17:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0590
+2026/09/02 17:17:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0690
+2026/09/02 17:17:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0775
+2026/09/02 17:17:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0480
+2026/09/02 17:17:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0490
+2026/09/02 17:17:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 205: 1.0616
+2026/09/02 17:17:47 - __main__ - INFO - 117 - trainer - Epoch: 206
+2026/09/02 17:17:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0575
+2026/09/02 17:17:52 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0655
+2026/09/02 17:17:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0731
+2026/09/02 17:18:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0785
+2026/09/02 17:18:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0699
+2026/09/02 17:18:12 - __main__ - INFO - 167 - trainer - Average loss in epoch 206: 1.0611
+2026/09/02 17:18:12 - __main__ - INFO - 117 - trainer - Epoch: 207
+2026/09/02 17:18:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0736
+2026/09/02 17:18:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0549
+2026/09/02 17:18:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0442
+2026/09/02 17:18:28 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0757
+2026/09/02 17:18:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0834
+2026/09/02 17:18:38 - __main__ - INFO - 167 - trainer - Average loss in epoch 207: 1.0620
+2026/09/02 17:18:38 - __main__ - INFO - 117 - trainer - Epoch: 208
+2026/09/02 17:18:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0545
+2026/09/02 17:18:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0408
+2026/09/02 17:18:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0492
+2026/09/02 17:18:53 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0666
+2026/09/02 17:18:58 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0289
+2026/09/02 17:19:03 - __main__ - INFO - 167 - trainer - Average loss in epoch 208: 1.0612
+2026/09/02 17:19:03 - __main__ - INFO - 117 - trainer - Epoch: 209
+2026/09/02 17:19:03 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0676
+2026/09/02 17:19:08 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0620
+2026/09/02 17:19:13 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0485
+2026/09/02 17:19:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0628
+2026/09/02 17:19:24 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0639
+2026/09/02 17:19:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 209: 1.0618
+2026/09/02 17:19:29 - __main__ - INFO - 117 - trainer - Epoch: 210
+2026/09/02 17:19:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0556
+2026/09/02 17:19:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0695
+2026/09/02 17:19:39 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0652
+2026/09/02 17:19:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0430
+2026/09/02 17:19:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0716
+2026/09/02 17:19:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 210: 1.0607
+2026/09/02 17:19:54 - __main__ - INFO - 117 - trainer - Epoch: 211
+2026/09/02 17:19:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0587
+2026/09/02 17:20:00 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0677
+2026/09/02 17:20:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0522
+2026/09/02 17:20:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0706
+2026/09/02 17:20:16 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0582
+2026/09/02 17:20:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 211: 1.0615
+2026/09/02 17:20:20 - __main__ - INFO - 117 - trainer - Epoch: 212
+2026/09/02 17:20:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0580
+2026/09/02 17:20:26 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0585
+2026/09/02 17:20:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0749
+2026/09/02 17:20:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0472
+2026/09/02 17:20:42 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0599
+2026/09/02 17:20:46 - __main__ - INFO - 167 - trainer - Average loss in epoch 212: 1.0608
+2026/09/02 17:20:46 - __main__ - INFO - 117 - trainer - Epoch: 213
+2026/09/02 17:20:46 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0441
+2026/09/02 17:20:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0511
+2026/09/02 17:20:57 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0591
+2026/09/02 17:21:02 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0550
+2026/09/02 17:21:07 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0667
+2026/09/02 17:21:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 213: 1.0612
+2026/09/02 17:21:11 - __main__ - INFO - 117 - trainer - Epoch: 214
+2026/09/02 17:21:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0641
+2026/09/02 17:21:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0382
+2026/09/02 17:21:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0647
+2026/09/02 17:21:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0544
+2026/09/02 17:21:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0641
+2026/09/02 17:21:37 - __main__ - INFO - 167 - trainer - Average loss in epoch 214: 1.0613
+2026/09/02 17:21:37 - __main__ - INFO - 117 - trainer - Epoch: 215
+2026/09/02 17:21:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0645
+2026/09/02 17:21:42 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0573
+2026/09/02 17:21:47 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0635
+2026/09/02 17:21:53 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0564
+2026/09/02 17:21:58 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0439
+2026/09/02 17:22:02 - __main__ - INFO - 167 - trainer - Average loss in epoch 215: 1.0613
+2026/09/02 17:22:02 - __main__ - INFO - 117 - trainer - Epoch: 216
+2026/09/02 17:22:02 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0688
+2026/09/02 17:22:08 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0603
+2026/09/02 17:22:13 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0558
+2026/09/02 17:22:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0514
+2026/09/02 17:22:23 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0659
+2026/09/02 17:22:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 216: 1.0609
+2026/09/02 17:22:28 - __main__ - INFO - 117 - trainer - Epoch: 217
+2026/09/02 17:22:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0588
+2026/09/02 17:22:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0635
+2026/09/02 17:22:38 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0698
+2026/09/02 17:22:43 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0595
+2026/09/02 17:22:48 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0449
+2026/09/02 17:22:53 - __main__ - INFO - 167 - trainer - Average loss in epoch 217: 1.0610
+2026/09/02 17:22:53 - __main__ - INFO - 117 - trainer - Epoch: 218
+2026/09/02 17:22:53 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0557
+2026/09/02 17:22:58 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0786
+2026/09/02 17:23:03 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0517
+2026/09/02 17:23:08 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0822
+2026/09/02 17:23:14 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0523
+2026/09/02 17:23:18 - __main__ - INFO - 167 - trainer - Average loss in epoch 218: 1.0611
+2026/09/02 17:23:18 - __main__ - INFO - 117 - trainer - Epoch: 219
+2026/09/02 17:23:18 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0505
+2026/09/02 17:23:23 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0483
+2026/09/02 17:23:29 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0606
+2026/09/02 17:23:34 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0536
+2026/09/02 17:23:39 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0661
+2026/09/02 17:23:44 - __main__ - INFO - 167 - trainer - Average loss in epoch 219: 1.0606
+2026/09/02 17:23:44 - __main__ - INFO - 117 - trainer - Epoch: 220
+2026/09/02 17:23:44 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0743
+2026/09/02 17:23:49 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0735
+2026/09/02 17:23:54 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0648
+2026/09/02 17:23:59 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0550
+2026/09/02 17:24:05 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0529
+2026/09/02 17:24:09 - __main__ - INFO - 167 - trainer - Average loss in epoch 220: 1.0614
+2026/09/02 17:24:09 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:24:09.806043
+2026/09/02 17:24:12 - __main__ - INFO - 117 - trainer - Epoch: 221
+2026/09/02 17:24:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0501
+2026/09/02 17:24:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0757
+2026/09/02 17:24:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0539
+2026/09/02 17:24:28 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0552
+2026/09/02 17:24:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0765
+2026/09/02 17:24:37 - __main__ - INFO - 167 - trainer - Average loss in epoch 221: 1.0613
+2026/09/02 17:24:37 - __main__ - INFO - 117 - trainer - Epoch: 222
+2026/09/02 17:24:38 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0444
+2026/09/02 17:24:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0615
+2026/09/02 17:24:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0735
+2026/09/02 17:24:53 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0584
+2026/09/02 17:24:59 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0474
+2026/09/02 17:25:03 - __main__ - INFO - 167 - trainer - Average loss in epoch 222: 1.0614
+2026/09/02 17:25:03 - __main__ - INFO - 117 - trainer - Epoch: 223
+2026/09/02 17:25:03 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0644
+2026/09/02 17:25:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0444
+2026/09/02 17:25:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0710
+2026/09/02 17:25:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0549
+2026/09/02 17:25:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0564
+2026/09/02 17:25:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 223: 1.0612
+2026/09/02 17:25:29 - __main__ - INFO - 117 - trainer - Epoch: 224
+2026/09/02 17:25:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0552
+2026/09/02 17:25:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0574
+2026/09/02 17:25:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0490
+2026/09/02 17:25:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0587
+2026/09/02 17:25:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0615
+2026/09/02 17:25:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 224: 1.0606
+2026/09/02 17:25:55 - __main__ - INFO - 117 - trainer - Epoch: 225
+2026/09/02 17:25:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0595
+2026/09/02 17:26:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0699
+2026/09/02 17:26:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0532
+2026/09/02 17:26:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0647
+2026/09/02 17:26:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0532
+2026/09/02 17:26:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 225: 1.0611
+2026/09/02 17:26:22 - __main__ - INFO - 117 - trainer - Epoch: 226
+2026/09/02 17:26:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0655
+2026/09/02 17:26:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0488
+2026/09/02 17:26:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0693
+2026/09/02 17:26:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0610
+2026/09/02 17:26:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0675
+2026/09/02 17:26:48 - __main__ - INFO - 167 - trainer - Average loss in epoch 226: 1.0608
+2026/09/02 17:26:48 - __main__ - INFO - 117 - trainer - Epoch: 227
+2026/09/02 17:26:48 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0582
+2026/09/02 17:26:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0674
+2026/09/02 17:26:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0644
+2026/09/02 17:27:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0922
+2026/09/02 17:27:09 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0612
+2026/09/02 17:27:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 227: 1.0614
+2026/09/02 17:27:13 - __main__ - INFO - 117 - trainer - Epoch: 228
+2026/09/02 17:27:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0633
+2026/09/02 17:27:19 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0457
+2026/09/02 17:27:24 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0559
+2026/09/02 17:27:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0617
+2026/09/02 17:27:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0527
+2026/09/02 17:27:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 228: 1.0612
+2026/09/02 17:27:39 - __main__ - INFO - 117 - trainer - Epoch: 229
+2026/09/02 17:27:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0740
+2026/09/02 17:27:44 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0618
+2026/09/02 17:27:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0564
+2026/09/02 17:27:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0443
+2026/09/02 17:28:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0490
+2026/09/02 17:28:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 229: 1.0609
+2026/09/02 17:28:05 - __main__ - INFO - 117 - trainer - Epoch: 230
+2026/09/02 17:28:05 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0556
+2026/09/02 17:28:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0514
+2026/09/02 17:28:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0526
+2026/09/02 17:28:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0427
+2026/09/02 17:28:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0693
+2026/09/02 17:28:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 230: 1.0607
+2026/09/02 17:28:30 - __main__ - INFO - 117 - trainer - Epoch: 231
+2026/09/02 17:28:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0679
+2026/09/02 17:28:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0599
+2026/09/02 17:28:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0441
+2026/09/02 17:28:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0554
+2026/09/02 17:28:51 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0535
+2026/09/02 17:28:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 231: 1.0611
+2026/09/02 17:28:56 - __main__ - INFO - 117 - trainer - Epoch: 232
+2026/09/02 17:28:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0641
+2026/09/02 17:29:02 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0503
+2026/09/02 17:29:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0475
+2026/09/02 17:29:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0626
+2026/09/02 17:29:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0821
+2026/09/02 17:29:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 232: 1.0609
+2026/09/02 17:29:22 - __main__ - INFO - 117 - trainer - Epoch: 233
+2026/09/02 17:29:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0759
+2026/09/02 17:29:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0417
+2026/09/02 17:29:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0516
+2026/09/02 17:29:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0510
+2026/09/02 17:29:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0548
+2026/09/02 17:29:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 233: 1.0605
+2026/09/02 17:29:47 - __main__ - INFO - 117 - trainer - Epoch: 234
+2026/09/02 17:29:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0578
+2026/09/02 17:29:52 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0618
+2026/09/02 17:29:58 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0578
+2026/09/02 17:30:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0531
+2026/09/02 17:30:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0517
+2026/09/02 17:30:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 234: 1.0614
+2026/09/02 17:30:13 - __main__ - INFO - 117 - trainer - Epoch: 235
+2026/09/02 17:30:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0622
+2026/09/02 17:30:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0559
+2026/09/02 17:30:24 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0554
+2026/09/02 17:30:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0508
+2026/09/02 17:30:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0526
+2026/09/02 17:30:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 235: 1.0604
+2026/09/02 17:30:39 - __main__ - INFO - 117 - trainer - Epoch: 236
+2026/09/02 17:30:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0670
+2026/09/02 17:30:44 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0655
+2026/09/02 17:30:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0468
+2026/09/02 17:30:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0624
+2026/09/02 17:31:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0662
+2026/09/02 17:31:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 236: 1.0609
+2026/09/02 17:31:04 - __main__ - INFO - 117 - trainer - Epoch: 237
+2026/09/02 17:31:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0440
+2026/09/02 17:31:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0761
+2026/09/02 17:31:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0617
+2026/09/02 17:31:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0546
+2026/09/02 17:31:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0473
+2026/09/02 17:31:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 237: 1.0608
+2026/09/02 17:31:30 - __main__ - INFO - 117 - trainer - Epoch: 238
+2026/09/02 17:31:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0648
+2026/09/02 17:31:36 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0679
+2026/09/02 17:31:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0525
+2026/09/02 17:31:47 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0655
+2026/09/02 17:31:52 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0578
+2026/09/02 17:31:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 238: 1.0609
+2026/09/02 17:31:56 - __main__ - INFO - 117 - trainer - Epoch: 239
+2026/09/02 17:31:56 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0584
+2026/09/02 17:32:02 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0713
+2026/09/02 17:32:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0606
+2026/09/02 17:32:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0653
+2026/09/02 17:32:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0598
+2026/09/02 17:32:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 239: 1.0610
+2026/09/02 17:32:22 - __main__ - INFO - 117 - trainer - Epoch: 240
+2026/09/02 17:32:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0625
+2026/09/02 17:32:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0520
+2026/09/02 17:32:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0660
+2026/09/02 17:32:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0767
+2026/09/02 17:32:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0350
+2026/09/02 17:32:48 - __main__ - INFO - 167 - trainer - Average loss in epoch 240: 1.0604
+2026/09/02 17:32:48 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:32:48.156828
+2026/09/02 17:32:50 - __main__ - INFO - 117 - trainer - Epoch: 241
+2026/09/02 17:32:51 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0568
+2026/09/02 17:32:56 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0607
+2026/09/02 17:33:01 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0477
+2026/09/02 17:33:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0439
+2026/09/02 17:33:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0659
+2026/09/02 17:33:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 241: 1.0606
+2026/09/02 17:33:16 - __main__ - INFO - 117 - trainer - Epoch: 242
+2026/09/02 17:33:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0786
+2026/09/02 17:33:22 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0412
+2026/09/02 17:33:27 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0771
+2026/09/02 17:33:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0792
+2026/09/02 17:33:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0665
+2026/09/02 17:33:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 242: 1.0608
+2026/09/02 17:33:42 - __main__ - INFO - 117 - trainer - Epoch: 243
+2026/09/02 17:33:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0802
+2026/09/02 17:33:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0483
+2026/09/02 17:33:53 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0642
+2026/09/02 17:33:58 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0456
+2026/09/02 17:34:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0564
+2026/09/02 17:34:08 - __main__ - INFO - 167 - trainer - Average loss in epoch 243: 1.0607
+2026/09/02 17:34:08 - __main__ - INFO - 117 - trainer - Epoch: 244
+2026/09/02 17:34:08 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0741
+2026/09/02 17:34:13 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0617
+2026/09/02 17:34:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0609
+2026/09/02 17:34:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0516
+2026/09/02 17:34:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0589
+2026/09/02 17:34:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 244: 1.0605
+2026/09/02 17:34:33 - __main__ - INFO - 117 - trainer - Epoch: 245
+2026/09/02 17:34:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0526
+2026/09/02 17:34:38 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0544
+2026/09/02 17:34:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0713
+2026/09/02 17:34:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0749
+2026/09/02 17:34:55 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0621
+2026/09/02 17:34:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 245: 1.0611
+2026/09/02 17:34:59 - __main__ - INFO - 117 - trainer - Epoch: 246
+2026/09/02 17:34:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0641
+2026/09/02 17:35:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0692
+2026/09/02 17:35:10 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0645
+2026/09/02 17:35:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0590
+2026/09/02 17:35:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0471
+2026/09/02 17:35:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 246: 1.0605
+2026/09/02 17:35:25 - __main__ - INFO - 117 - trainer - Epoch: 247
+2026/09/02 17:35:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0668
+2026/09/02 17:35:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0742
+2026/09/02 17:35:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0661
+2026/09/02 17:35:41 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0479
+2026/09/02 17:35:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0672
+2026/09/02 17:35:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 247: 1.0605
+2026/09/02 17:35:50 - __main__ - INFO - 117 - trainer - Epoch: 248
+2026/09/02 17:35:51 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0850
+2026/09/02 17:35:56 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0585
+2026/09/02 17:36:01 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0848
+2026/09/02 17:36:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0566
+2026/09/02 17:36:11 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0574
+2026/09/02 17:36:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 248: 1.0607
+2026/09/02 17:36:16 - __main__ - INFO - 117 - trainer - Epoch: 249
+2026/09/02 17:36:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0563
+2026/09/02 17:36:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0833
+2026/09/02 17:36:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0932
+2026/09/02 17:36:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0505
+2026/09/02 17:36:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0671
+2026/09/02 17:36:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 249: 1.0616
+2026/09/02 17:36:41 - __main__ - INFO - 117 - trainer - Epoch: 250
+2026/09/02 17:36:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0839
+2026/09/02 17:36:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0715
+2026/09/02 17:36:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0572
+2026/09/02 17:36:58 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0548
+2026/09/02 17:37:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0811
+2026/09/02 17:37:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 250: 1.0603
+2026/09/02 17:37:07 - __main__ - INFO - 117 - trainer - Epoch: 251
+2026/09/02 17:37:07 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0550
+2026/09/02 17:37:13 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0457
+2026/09/02 17:37:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0704
+2026/09/02 17:37:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0685
+2026/09/02 17:37:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0595
+2026/09/02 17:37:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 251: 1.0608
+2026/09/02 17:37:33 - __main__ - INFO - 117 - trainer - Epoch: 252
+2026/09/02 17:37:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0423
+2026/09/02 17:37:38 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0726
+2026/09/02 17:37:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0501
+2026/09/02 17:37:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0536
+2026/09/02 17:37:54 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0590
+2026/09/02 17:37:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 252: 1.0599
+2026/09/02 17:37:59 - __main__ - INFO - 117 - trainer - Epoch: 253
+2026/09/02 17:37:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0731
+2026/09/02 17:38:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0768
+2026/09/02 17:38:09 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0355
+2026/09/02 17:38:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0589
+2026/09/02 17:38:20 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0558
+2026/09/02 17:38:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 253: 1.0609
+2026/09/02 17:38:25 - __main__ - INFO - 117 - trainer - Epoch: 254
+2026/09/02 17:38:25 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0713
+2026/09/02 17:38:30 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0595
+2026/09/02 17:38:35 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0470
+2026/09/02 17:38:41 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0550
+2026/09/02 17:38:46 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0762
+2026/09/02 17:38:50 - __main__ - INFO - 167 - trainer - Average loss in epoch 254: 1.0608
+2026/09/02 17:38:50 - __main__ - INFO - 117 - trainer - Epoch: 255
+2026/09/02 17:38:50 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0479
+2026/09/02 17:38:56 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0601
+2026/09/02 17:39:01 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0631
+2026/09/02 17:39:06 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0487
+2026/09/02 17:39:12 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0388
+2026/09/02 17:39:16 - __main__ - INFO - 167 - trainer - Average loss in epoch 255: 1.0609
+2026/09/02 17:39:16 - __main__ - INFO - 117 - trainer - Epoch: 256
+2026/09/02 17:39:16 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0599
+2026/09/02 17:39:21 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0519
+2026/09/02 17:39:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0470
+2026/09/02 17:39:32 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0707
+2026/09/02 17:39:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0556
+2026/09/02 17:39:42 - __main__ - INFO - 167 - trainer - Average loss in epoch 256: 1.0608
+2026/09/02 17:39:42 - __main__ - INFO - 117 - trainer - Epoch: 257
+2026/09/02 17:39:42 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0505
+2026/09/02 17:39:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0614
+2026/09/02 17:39:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0596
+2026/09/02 17:39:58 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0509
+2026/09/02 17:40:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0417
+2026/09/02 17:40:08 - __main__ - INFO - 167 - trainer - Average loss in epoch 257: 1.0601
+2026/09/02 17:40:08 - __main__ - INFO - 117 - trainer - Epoch: 258
+2026/09/02 17:40:08 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0750
+2026/09/02 17:40:13 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0530
+2026/09/02 17:40:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0732
+2026/09/02 17:40:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0614
+2026/09/02 17:40:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0662
+2026/09/02 17:40:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 258: 1.0609
+2026/09/02 17:40:33 - __main__ - INFO - 117 - trainer - Epoch: 259
+2026/09/02 17:40:34 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0439
+2026/09/02 17:40:39 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0715
+2026/09/02 17:40:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0554
+2026/09/02 17:40:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0655
+2026/09/02 17:40:55 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0590
+2026/09/02 17:40:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 259: 1.0609
+2026/09/02 17:40:59 - __main__ - INFO - 117 - trainer - Epoch: 260
+2026/09/02 17:40:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0382
+2026/09/02 17:41:04 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0360
+2026/09/02 17:41:10 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0563
+2026/09/02 17:41:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0539
+2026/09/02 17:41:21 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0611
+2026/09/02 17:41:25 - __main__ - INFO - 167 - trainer - Average loss in epoch 260: 1.0605
+2026/09/02 17:41:25 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:41:25.596960
+2026/09/02 17:41:28 - __main__ - INFO - 117 - trainer - Epoch: 261
+2026/09/02 17:41:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0620
+2026/09/02 17:41:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0743
+2026/09/02 17:41:39 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0745
+2026/09/02 17:41:44 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0709
+2026/09/02 17:41:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0523
+2026/09/02 17:41:54 - __main__ - INFO - 167 - trainer - Average loss in epoch 261: 1.0602
+2026/09/02 17:41:54 - __main__ - INFO - 117 - trainer - Epoch: 262
+2026/09/02 17:41:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0576
+2026/09/02 17:41:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0535
+2026/09/02 17:42:05 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0624
+2026/09/02 17:42:10 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0657
+2026/09/02 17:42:15 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0542
+2026/09/02 17:42:20 - __main__ - INFO - 167 - trainer - Average loss in epoch 262: 1.0607
+2026/09/02 17:42:20 - __main__ - INFO - 117 - trainer - Epoch: 263
+2026/09/02 17:42:20 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0553
+2026/09/02 17:42:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0607
+2026/09/02 17:42:31 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0740
+2026/09/02 17:42:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0753
+2026/09/02 17:42:42 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0660
+2026/09/02 17:42:46 - __main__ - INFO - 167 - trainer - Average loss in epoch 263: 1.0608
+2026/09/02 17:42:46 - __main__ - INFO - 117 - trainer - Epoch: 264
+2026/09/02 17:42:46 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0551
+2026/09/02 17:42:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0754
+2026/09/02 17:42:57 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0619
+2026/09/02 17:43:02 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0540
+2026/09/02 17:43:07 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0381
+2026/09/02 17:43:12 - __main__ - INFO - 167 - trainer - Average loss in epoch 264: 1.0600
+2026/09/02 17:43:12 - __main__ - INFO - 117 - trainer - Epoch: 265
+2026/09/02 17:43:12 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0605
+2026/09/02 17:43:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0808
+2026/09/02 17:43:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0376
+2026/09/02 17:43:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0486
+2026/09/02 17:43:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0531
+2026/09/02 17:43:37 - __main__ - INFO - 167 - trainer - Average loss in epoch 265: 1.0599
+2026/09/02 17:43:37 - __main__ - INFO - 117 - trainer - Epoch: 266
+2026/09/02 17:43:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0654
+2026/09/02 17:43:43 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0717
+2026/09/02 17:43:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0591
+2026/09/02 17:43:54 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0779
+2026/09/02 17:43:59 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0715
+2026/09/02 17:44:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 266: 1.0607
+2026/09/02 17:44:04 - __main__ - INFO - 117 - trainer - Epoch: 267
+2026/09/02 17:44:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0458
+2026/09/02 17:44:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0663
+2026/09/02 17:44:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0473
+2026/09/02 17:44:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0679
+2026/09/02 17:44:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0539
+2026/09/02 17:44:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 267: 1.0609
+2026/09/02 17:44:30 - __main__ - INFO - 117 - trainer - Epoch: 268
+2026/09/02 17:44:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0584
+2026/09/02 17:44:35 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0632
+2026/09/02 17:44:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0783
+2026/09/02 17:44:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0708
+2026/09/02 17:44:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0697
+2026/09/02 17:44:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 268: 1.0602
+2026/09/02 17:44:55 - __main__ - INFO - 117 - trainer - Epoch: 269
+2026/09/02 17:44:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0517
+2026/09/02 17:45:00 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0557
+2026/09/02 17:45:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0403
+2026/09/02 17:45:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0592
+2026/09/02 17:45:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0659
+2026/09/02 17:45:21 - __main__ - INFO - 167 - trainer - Average loss in epoch 269: 1.0602
+2026/09/02 17:45:21 - __main__ - INFO - 117 - trainer - Epoch: 270
+2026/09/02 17:45:21 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0558
+2026/09/02 17:45:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0770
+2026/09/02 17:45:32 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0480
+2026/09/02 17:45:37 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0690
+2026/09/02 17:45:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0502
+2026/09/02 17:45:47 - __main__ - INFO - 167 - trainer - Average loss in epoch 270: 1.0600
+2026/09/02 17:45:47 - __main__ - INFO - 117 - trainer - Epoch: 271
+2026/09/02 17:45:47 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0752
+2026/09/02 17:45:52 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0553
+2026/09/02 17:45:57 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0667
+2026/09/02 17:46:03 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0582
+2026/09/02 17:46:08 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0574
+2026/09/02 17:46:13 - __main__ - INFO - 167 - trainer - Average loss in epoch 271: 1.0603
+2026/09/02 17:46:13 - __main__ - INFO - 117 - trainer - Epoch: 272
+2026/09/02 17:46:13 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0526
+2026/09/02 17:46:18 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0802
+2026/09/02 17:46:23 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0545
+2026/09/02 17:46:29 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0589
+2026/09/02 17:46:34 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0519
+2026/09/02 17:46:39 - __main__ - INFO - 167 - trainer - Average loss in epoch 272: 1.0598
+2026/09/02 17:46:39 - __main__ - INFO - 117 - trainer - Epoch: 273
+2026/09/02 17:46:39 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0699
+2026/09/02 17:46:44 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0475
+2026/09/02 17:46:49 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0677
+2026/09/02 17:46:55 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0808
+2026/09/02 17:47:00 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0622
+2026/09/02 17:47:04 - __main__ - INFO - 167 - trainer - Average loss in epoch 273: 1.0611
+2026/09/02 17:47:04 - __main__ - INFO - 117 - trainer - Epoch: 274
+2026/09/02 17:47:04 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0492
+2026/09/02 17:47:10 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0561
+2026/09/02 17:47:15 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0958
+2026/09/02 17:47:20 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0541
+2026/09/02 17:47:26 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0494
+2026/09/02 17:47:30 - __main__ - INFO - 167 - trainer - Average loss in epoch 274: 1.0605
+2026/09/02 17:47:30 - __main__ - INFO - 117 - trainer - Epoch: 275
+2026/09/02 17:47:30 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0560
+2026/09/02 17:47:36 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0626
+2026/09/02 17:47:41 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0532
+2026/09/02 17:47:46 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0694
+2026/09/02 17:47:52 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0653
+2026/09/02 17:47:56 - __main__ - INFO - 167 - trainer - Average loss in epoch 275: 1.0603
+2026/09/02 17:47:56 - __main__ - INFO - 117 - trainer - Epoch: 276
+2026/09/02 17:47:57 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0543
+2026/09/02 17:48:02 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0459
+2026/09/02 17:48:07 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0853
+2026/09/02 17:48:12 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0523
+2026/09/02 17:48:18 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0358
+2026/09/02 17:48:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 276: 1.0610
+2026/09/02 17:48:22 - __main__ - INFO - 117 - trainer - Epoch: 277
+2026/09/02 17:48:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0643
+2026/09/02 17:48:28 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0554
+2026/09/02 17:48:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0568
+2026/09/02 17:48:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0463
+2026/09/02 17:48:44 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0490
+2026/09/02 17:48:48 - __main__ - INFO - 167 - trainer - Average loss in epoch 277: 1.0599
+2026/09/02 17:48:48 - __main__ - INFO - 117 - trainer - Epoch: 278
+2026/09/02 17:48:48 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0432
+2026/09/02 17:48:54 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0770
+2026/09/02 17:48:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0409
+2026/09/02 17:49:05 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0476
+2026/09/02 17:49:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0721
+2026/09/02 17:49:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 278: 1.0604
+2026/09/02 17:49:14 - __main__ - INFO - 117 - trainer - Epoch: 279
+2026/09/02 17:49:15 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0501
+2026/09/02 17:49:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0691
+2026/09/02 17:49:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0722
+2026/09/02 17:49:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0652
+2026/09/02 17:49:37 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0578
+2026/09/02 17:49:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 279: 1.0598
+2026/09/02 17:49:41 - __main__ - INFO - 117 - trainer - Epoch: 280
+2026/09/02 17:49:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0405
+2026/09/02 17:49:47 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0756
+2026/09/02 17:49:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0687
+2026/09/02 17:49:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0679
+2026/09/02 17:50:03 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0643
+2026/09/02 17:50:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 280: 1.0603
+2026/09/02 17:50:07 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:50:07.459881
+2026/09/02 17:50:10 - __main__ - INFO - 117 - trainer - Epoch: 281
+2026/09/02 17:50:10 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0640
+2026/09/02 17:50:15 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0538
+2026/09/02 17:50:21 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0608
+2026/09/02 17:50:26 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0364
+2026/09/02 17:50:31 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0537
+2026/09/02 17:50:36 - __main__ - INFO - 167 - trainer - Average loss in epoch 281: 1.0600
+2026/09/02 17:50:36 - __main__ - INFO - 117 - trainer - Epoch: 282
+2026/09/02 17:50:36 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0660
+2026/09/02 17:50:41 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0615
+2026/09/02 17:50:47 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0457
+2026/09/02 17:50:52 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0811
+2026/09/02 17:50:57 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0659
+2026/09/02 17:51:02 - __main__ - INFO - 167 - trainer - Average loss in epoch 282: 1.0603
+2026/09/02 17:51:02 - __main__ - INFO - 117 - trainer - Epoch: 283
+2026/09/02 17:51:02 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0853
+2026/09/02 17:51:07 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0591
+2026/09/02 17:51:12 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0735
+2026/09/02 17:51:18 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0486
+2026/09/02 17:51:23 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0486
+2026/09/02 17:51:28 - __main__ - INFO - 167 - trainer - Average loss in epoch 283: 1.0599
+2026/09/02 17:51:28 - __main__ - INFO - 117 - trainer - Epoch: 284
+2026/09/02 17:51:28 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0599
+2026/09/02 17:51:33 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0717
+2026/09/02 17:51:38 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0818
+2026/09/02 17:51:44 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0759
+2026/09/02 17:51:49 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0778
+2026/09/02 17:51:53 - __main__ - INFO - 167 - trainer - Average loss in epoch 284: 1.0608
+2026/09/02 17:51:53 - __main__ - INFO - 117 - trainer - Epoch: 285
+2026/09/02 17:51:54 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0448
+2026/09/02 17:51:59 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0539
+2026/09/02 17:52:04 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0567
+2026/09/02 17:52:09 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0758
+2026/09/02 17:52:15 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0746
+2026/09/02 17:52:19 - __main__ - INFO - 167 - trainer - Average loss in epoch 285: 1.0602
+2026/09/02 17:52:19 - __main__ - INFO - 117 - trainer - Epoch: 286
+2026/09/02 17:52:19 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0469
+2026/09/02 17:52:25 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0807
+2026/09/02 17:52:30 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0509
+2026/09/02 17:52:36 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0733
+2026/09/02 17:52:41 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0510
+2026/09/02 17:52:45 - __main__ - INFO - 167 - trainer - Average loss in epoch 286: 1.0601
+2026/09/02 17:52:45 - __main__ - INFO - 117 - trainer - Epoch: 287
+2026/09/02 17:52:45 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0761
+2026/09/02 17:52:51 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0931
+2026/09/02 17:52:56 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0525
+2026/09/02 17:53:01 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0729
+2026/09/02 17:53:07 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0689
+2026/09/02 17:53:11 - __main__ - INFO - 167 - trainer - Average loss in epoch 287: 1.0600
+2026/09/02 17:53:11 - __main__ - INFO - 117 - trainer - Epoch: 288
+2026/09/02 17:53:11 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0603
+2026/09/02 17:53:17 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0674
+2026/09/02 17:53:22 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0842
+2026/09/02 17:53:27 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0723
+2026/09/02 17:53:33 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0626
+2026/09/02 17:53:37 - __main__ - INFO - 167 - trainer - Average loss in epoch 288: 1.0603
+2026/09/02 17:53:37 - __main__ - INFO - 117 - trainer - Epoch: 289
+2026/09/02 17:53:37 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0676
+2026/09/02 17:53:42 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0466
+2026/09/02 17:53:48 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0570
+2026/09/02 17:53:53 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0712
+2026/09/02 17:53:58 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0732
+2026/09/02 17:54:03 - __main__ - INFO - 167 - trainer - Average loss in epoch 289: 1.0594
+2026/09/02 17:54:03 - __main__ - INFO - 117 - trainer - Epoch: 290
+2026/09/02 17:54:03 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0614
+2026/09/02 17:54:09 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0625
+2026/09/02 17:54:14 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0494
+2026/09/02 17:54:19 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0660
+2026/09/02 17:54:25 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0841
+2026/09/02 17:54:29 - __main__ - INFO - 167 - trainer - Average loss in epoch 290: 1.0596
+2026/09/02 17:54:29 - __main__ - INFO - 117 - trainer - Epoch: 291
+2026/09/02 17:54:29 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0747
+2026/09/02 17:54:34 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0929
+2026/09/02 17:54:40 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0475
+2026/09/02 17:54:45 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0540
+2026/09/02 17:54:50 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0620
+2026/09/02 17:54:55 - __main__ - INFO - 167 - trainer - Average loss in epoch 291: 1.0596
+2026/09/02 17:54:55 - __main__ - INFO - 117 - trainer - Epoch: 292
+2026/09/02 17:54:55 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0566
+2026/09/02 17:55:01 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0674
+2026/09/02 17:55:06 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0510
+2026/09/02 17:55:11 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0543
+2026/09/02 17:55:17 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0662
+2026/09/02 17:55:22 - __main__ - INFO - 167 - trainer - Average loss in epoch 292: 1.0596
+2026/09/02 17:55:22 - __main__ - INFO - 117 - trainer - Epoch: 293
+2026/09/02 17:55:22 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0677
+2026/09/02 17:55:27 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0790
+2026/09/02 17:55:33 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0502
+2026/09/02 17:55:38 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0767
+2026/09/02 17:55:43 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0506
+2026/09/02 17:55:48 - __main__ - INFO - 167 - trainer - Average loss in epoch 293: 1.0605
+2026/09/02 17:55:48 - __main__ - INFO - 117 - trainer - Epoch: 294
+2026/09/02 17:55:48 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0646
+2026/09/02 17:55:53 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0430
+2026/09/02 17:55:59 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0317
+2026/09/02 17:56:04 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0607
+2026/09/02 17:56:10 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0611
+2026/09/02 17:56:14 - __main__ - INFO - 167 - trainer - Average loss in epoch 294: 1.0598
+2026/09/02 17:56:14 - __main__ - INFO - 117 - trainer - Epoch: 295
+2026/09/02 17:56:14 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0510
+2026/09/02 17:56:20 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0409
+2026/09/02 17:56:26 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0346
+2026/09/02 17:56:31 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0559
+2026/09/02 17:56:36 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0727
+2026/09/02 17:56:41 - __main__ - INFO - 167 - trainer - Average loss in epoch 295: 1.0597
+2026/09/02 17:56:41 - __main__ - INFO - 117 - trainer - Epoch: 296
+2026/09/02 17:56:41 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0575
+2026/09/02 17:56:46 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0708
+2026/09/02 17:56:52 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0796
+2026/09/02 17:56:57 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0545
+2026/09/02 17:57:02 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0741
+2026/09/02 17:57:07 - __main__ - INFO - 167 - trainer - Average loss in epoch 296: 1.0601
+2026/09/02 17:57:07 - __main__ - INFO - 117 - trainer - Epoch: 297
+2026/09/02 17:57:07 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0693
+2026/09/02 17:57:12 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0734
+2026/09/02 17:57:18 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0564
+2026/09/02 17:57:23 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0470
+2026/09/02 17:57:29 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0689
+2026/09/02 17:57:33 - __main__ - INFO - 167 - trainer - Average loss in epoch 297: 1.0601
+2026/09/02 17:57:33 - __main__ - INFO - 117 - trainer - Epoch: 298
+2026/09/02 17:57:33 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0706
+2026/09/02 17:57:39 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0501
+2026/09/02 17:57:44 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0504
+2026/09/02 17:57:49 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0494
+2026/09/02 17:57:55 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0741
+2026/09/02 17:57:59 - __main__ - INFO - 167 - trainer - Average loss in epoch 298: 1.0594
+2026/09/02 17:57:59 - __main__ - INFO - 117 - trainer - Epoch: 299
+2026/09/02 17:57:59 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0830
+2026/09/02 17:58:05 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0746
+2026/09/02 17:58:10 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0911
+2026/09/02 17:58:15 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0654
+2026/09/02 17:58:21 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0445
+2026/09/02 17:58:26 - __main__ - INFO - 167 - trainer - Average loss in epoch 299: 1.0602
+2026/09/02 17:58:26 - __main__ - INFO - 117 - trainer - Epoch: 300
+2026/09/02 17:58:26 - __main__ - INFO - 162 - trainer - [0/190] Loss: 1.0547
+2026/09/02 17:58:31 - __main__ - INFO - 162 - trainer - [39/190] Loss: 1.0579
+2026/09/02 17:58:37 - __main__ - INFO - 162 - trainer - [78/190] Loss: 1.0605
+2026/09/02 17:58:42 - __main__ - INFO - 162 - trainer - [117/190] Loss: 1.0472
+2026/09/02 17:58:48 - __main__ - INFO - 162 - trainer - [156/190] Loss: 1.0679
+2026/09/02 17:58:52 - __main__ - INFO - 167 - trainer - Average loss in epoch 300: 1.0599
+2026/09/02 17:58:52 - __main__ - INFO - 173 - trainer - start predicting: 2026-09-02 17:58:52.863336
+2026/09/02 17:58:55 - __main__ - INFO - 210 - trainer - {'Best_HR@5': np.float64(9.8404), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(28.2156), 'Best_NDCG@5': np.float64(5.8676), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(11.0216)}
+2026/09/02 17:58:55 - __main__ - INFO - 211 - trainer - {'Best_epoch_HR@5': 200, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 100, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 100}
+2026/09/02 18:03:18 - __main__ - INFO - 268 - trainer - Train------------------------------------------------------
+2026/09/02 18:03:18 - __main__ - INFO - 270 - trainer - {'HR@5': np.float64(23.538), 'HR@10': np.float64(34.2289), 'HR@20': np.float64(48.2405), 'NDCG@5': np.float64(16.3561), 'NDCG@10': np.float64(19.7939), 'NDCG@20': np.float64(23.3264)}
+2026/09/02 18:03:18 - __main__ - INFO - 274 - trainer - Test------------------------------------------------------
+2026/09/02 18:03:18 - __main__ - INFO - 276 - trainer - {'HR@5': np.float64(7.6611), 'HR@10': np.float64(14.4617), 'HR@20': np.float64(24.1317), 'NDCG@5': np.float64(4.6805), 'NDCG@10': np.float64(6.8787), 'NDCG@20': np.float64(9.3494)}
+2026/09/02 18:03:18 - __main__ - INFO - 279 - trainer - Best Eval---------------------------------------------------------
+2026/09/02 18:03:18 - __main__ - INFO - 282 - trainer - {'Best_HR@5': np.float64(9.8404), 'Best_HR@10': np.float64(17.0441), 'Best_HR@20': np.float64(28.2156), 'Best_NDCG@5': np.float64(5.8676), 'Best_NDCG@10': np.float64(8.259), 'Best_NDCG@20': np.float64(11.0216)}
+2026/09/02 18:03:18 - __main__ - INFO - 283 - trainer - {'Best_epoch_HR@5': 200, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 100, 'Best_epoch_NDCG@10': 80, 'Best_epoch_NDCG@20': 100}
