@@ -316,11 +316,11 @@ class FMRec(nn.Module):
                 # V = pred
                 
                 ## Rectified Flow
-                V = pred - z0       
+                #V = pred - z0       
 
                 # #### Cosine
-                # half_pi = math.pi / 2       
-                # V = (half_pi * self.Sin_fn(t)).unsqueeze(1) * pred - ( (half_pi * self.Cos_fn(t)).unsqueeze(1) * z0 )
+                half_pi = math.pi / 2       
+                V = (half_pi * self.Sin_fn(t)).unsqueeze(1) * pred - ( (half_pi * self.Cos_fn(t)).unsqueeze(1) * z0 )
 
                 x = x.detach().clone() + V * dt
             
@@ -375,12 +375,12 @@ class FMRec(nn.Module):
         assert z0.shape == x_start.shape
 
         # Rectified Flow
-        a_t = self.a_t_fn(t)       ### a_t = t
-        b_t = self.b_t_fn(t)       ### b_t = 1 - t
+        #a_t = self.a_t_fn(t)       ### a_t = t
+        #b_t = self.b_t_fn(t)       ### b_t = 1 - t
         
         # # Cosine
-        # a_t = self.Cos_fn(t)
-        # b_t = self.Sin_fn(t)
+        a_t = self.Cos_fn(t)
+        b_t = self.Sin_fn(t)
 
         x_t = a_t * x_start + b_t* z0
 
