@@ -1,0 +1,1603 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/root/autodl-tmp/FMRec/src/main.py", line 5, in <module>
+    import torch
+  File "/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/root/miniconda3/envs/fmrec/lib/python3.10/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+Namespace(dataset='ml-100k', log_file='log/', random_seed=1997, max_len=50, device='cuda', num_gpu=1, batch_size=512, hidden_size=128, dropout=0.1, emb_dropout=0.3, hidden_act='gelu', num_blocks=4, epochs=500, decay_step=100, gamma=0.1, metric_ks=[5, 10, 20], optimizer='Adam', lr=0.001, weight_decay=0, momentum=None, lambda_uncertainty=0.001, eval_interval=20, patience=5, eps=0.001, sample_N=30, lambda_t=0.001, dropout_c=0.1, eps_reverse=0.001, m_logNorm=1.0, s_logNorm=0.6, s_modsamp=1.0, last=2, mask_ratio=1.0, sampling_method='cosmap', Loss_Alpha=0.2, Loss_Beta=0.4)
+Epoch: 0
+[0/190] Loss: 13.2134
+[39/190] Loss: 6.7865
+[78/190] Loss: 5.9650
+[117/190] Loss: 5.2179
+[156/190] Loss: 4.9203
+Average loss in epoch 0: 5.9555
+Epoch: 1
+[0/190] Loss: 4.5551
+[39/190] Loss: 4.3884
+[78/190] Loss: 3.9961
+[117/190] Loss: 3.6752
+[156/190] Loss: 3.5241
+Average loss in epoch 1: 3.9101
+Epoch: 2
+[0/190] Loss: 3.2336
+[39/190] Loss: 3.0486
+[78/190] Loss: 2.7977
+[117/190] Loss: 2.5626
+[156/190] Loss: 2.4801
+Average loss in epoch 2: 2.7541
+Epoch: 3
+[0/190] Loss: 2.4291
+[39/190] Loss: 2.3936
+[78/190] Loss: 2.3579
+[117/190] Loss: 2.3223
+[156/190] Loss: 2.3240
+Average loss in epoch 3: 2.3643
+Epoch: 4
+[0/190] Loss: 2.2947
+[39/190] Loss: 2.2448
+[78/190] Loss: 2.2169
+[117/190] Loss: 2.2301
+[156/190] Loss: 2.2066
+Average loss in epoch 4: 2.2397
+Epoch: 5
+[0/190] Loss: 2.1768
+[39/190] Loss: 2.1585
+[78/190] Loss: 2.1744
+[117/190] Loss: 2.1089
+[156/190] Loss: 2.1076
+Average loss in epoch 5: 2.1384
+Epoch: 6
+[0/190] Loss: 2.0675
+[39/190] Loss: 2.0900
+[78/190] Loss: 2.0626
+[117/190] Loss: 2.0663
+[156/190] Loss: 2.0318
+Average loss in epoch 6: 2.0531
+Epoch: 7
+[0/190] Loss: 2.0161
+[39/190] Loss: 1.9870
+[78/190] Loss: 1.9649
+[117/190] Loss: 1.9389
+[156/190] Loss: 1.9600
+Average loss in epoch 7: 1.9765
+Epoch: 8
+[0/190] Loss: 1.9422
+[39/190] Loss: 1.9369
+[78/190] Loss: 1.9092
+[117/190] Loss: 1.8802
+[156/190] Loss: 1.9072
+Average loss in epoch 8: 1.9077
+Epoch: 9
+[0/190] Loss: 1.8842
+[39/190] Loss: 1.8475
+[78/190] Loss: 1.8264
+[117/190] Loss: 1.8374
+[156/190] Loss: 1.8449
+Average loss in epoch 9: 1.8458
+Epoch: 10
+[0/190] Loss: 1.7916
+[39/190] Loss: 1.8187
+[78/190] Loss: 1.7992
+[117/190] Loss: 1.7629
+[156/190] Loss: 1.7746
+Average loss in epoch 10: 1.7890
+Epoch: 11
+[0/190] Loss: 1.7502
+[39/190] Loss: 1.7572
+[78/190] Loss: 1.7432
+[117/190] Loss: 1.7215
+[156/190] Loss: 1.7364
+Average loss in epoch 11: 1.7358
+Epoch: 12
+[0/190] Loss: 1.7237
+[39/190] Loss: 1.6804
+[78/190] Loss: 1.7067
+[117/190] Loss: 1.6749
+[156/190] Loss: 1.6895
+Average loss in epoch 12: 1.6883
+Epoch: 13
+[0/190] Loss: 1.6903
+[39/190] Loss: 1.6525
+[78/190] Loss: 1.6042
+[117/190] Loss: 1.6319
+[156/190] Loss: 1.6417
+Average loss in epoch 13: 1.6431
+Epoch: 14
+[0/190] Loss: 1.6342
+[39/190] Loss: 1.6036
+[78/190] Loss: 1.6107
+[117/190] Loss: 1.5730
+[156/190] Loss: 1.6092
+Average loss in epoch 14: 1.6020
+Epoch: 15
+[0/190] Loss: 1.6115
+[39/190] Loss: 1.5644
+[78/190] Loss: 1.5845
+[117/190] Loss: 1.5605
+[156/190] Loss: 1.5556
+Average loss in epoch 15: 1.5645
+Epoch: 16
+[0/190] Loss: 1.5366
+[39/190] Loss: 1.5368
+[78/190] Loss: 1.5229
+[117/190] Loss: 1.4892
+[156/190] Loss: 1.5201
+Average loss in epoch 16: 1.5306
+Epoch: 17
+[0/190] Loss: 1.5029
+[39/190] Loss: 1.4732
+[78/190] Loss: 1.5222
+[117/190] Loss: 1.5046
+[156/190] Loss: 1.4708
+Average loss in epoch 17: 1.4987
+Epoch: 18
+[0/190] Loss: 1.4638
+[39/190] Loss: 1.4504
+[78/190] Loss: 1.4935
+[117/190] Loss: 1.4196
+[156/190] Loss: 1.4271
+Average loss in epoch 18: 1.4678
+Epoch: 19
+[0/190] Loss: 1.4709
+[39/190] Loss: 1.4270
+[78/190] Loss: 1.4324
+[117/190] Loss: 1.4110
+[156/190] Loss: 1.4279
+Average loss in epoch 19: 1.4415
+Epoch: 20
+[0/190] Loss: 1.4260
+[39/190] Loss: 1.4312
+[78/190] Loss: 1.4481
+[117/190] Loss: 1.4058
+[156/190] Loss: 1.4210
+Average loss in epoch 20: 1.4163
+start predicting:  2026-09-02 18:52:16.380021
+{'Best_HR@5': np.float64(6.6846), 'Best_HR@10': np.float64(11.9954), 'Best_HR@20': np.float64(19.901), 'Best_NDCG@5': np.float64(4.0273), 'Best_NDCG@10': np.float64(5.7439), 'Best_NDCG@20': np.float64(7.7368)}
+{'Best_epoch_HR@5': 20, 'Best_epoch_HR@10': 20, 'Best_epoch_HR@20': 20, 'Best_epoch_NDCG@5': 20, 'Best_epoch_NDCG@10': 20, 'Best_epoch_NDCG@20': 20}
+Epoch: 21
+[0/190] Loss: 1.4040
+[39/190] Loss: 1.3917
+[78/190] Loss: 1.4150
+[117/190] Loss: 1.4028
+[156/190] Loss: 1.3410
+Average loss in epoch 21: 1.3939
+Epoch: 22
+[0/190] Loss: 1.3709
+[39/190] Loss: 1.3729
+[78/190] Loss: 1.3976
+[117/190] Loss: 1.3728
+[156/190] Loss: 1.3689
+Average loss in epoch 22: 1.3721
+Epoch: 23
+[0/190] Loss: 1.3721
+[39/190] Loss: 1.3702
+[78/190] Loss: 1.3533
+[117/190] Loss: 1.3123
+[156/190] Loss: 1.3147
+Average loss in epoch 23: 1.3535
+Epoch: 24
+[0/190] Loss: 1.3378
+[39/190] Loss: 1.3303
+[78/190] Loss: 1.3406
+[117/190] Loss: 1.3287
+[156/190] Loss: 1.3179
+Average loss in epoch 24: 1.3351
+Epoch: 25
+[0/190] Loss: 1.2918
+[39/190] Loss: 1.3340
+[78/190] Loss: 1.3395
+[117/190] Loss: 1.3377
+[156/190] Loss: 1.3269
+Average loss in epoch 25: 1.3192
+Epoch: 26
+[0/190] Loss: 1.2749
+[39/190] Loss: 1.3046
+[78/190] Loss: 1.3028
+[117/190] Loss: 1.3009
+[156/190] Loss: 1.3191
+Average loss in epoch 26: 1.3040
+Epoch: 27
+[0/190] Loss: 1.3005
+[39/190] Loss: 1.3223
+[78/190] Loss: 1.2669
+[117/190] Loss: 1.2769
+[156/190] Loss: 1.2989
+Average loss in epoch 27: 1.2915
+Epoch: 28
+[0/190] Loss: 1.2888
+[39/190] Loss: 1.2787
+[78/190] Loss: 1.2879
+[117/190] Loss: 1.2599
+[156/190] Loss: 1.2742
+Average loss in epoch 28: 1.2790
+Epoch: 29
+[0/190] Loss: 1.2626
+[39/190] Loss: 1.2716
+[78/190] Loss: 1.2684
+[117/190] Loss: 1.2624
+[156/190] Loss: 1.2800
+Average loss in epoch 29: 1.2672
+Epoch: 30
+[0/190] Loss: 1.2377
+[39/190] Loss: 1.2507
+[78/190] Loss: 1.2443
+[117/190] Loss: 1.2739
+[156/190] Loss: 1.2673
+Average loss in epoch 30: 1.2573
+Epoch: 31
+[0/190] Loss: 1.2544
+[39/190] Loss: 1.2344
+[78/190] Loss: 1.2275
+[117/190] Loss: 1.2500
+[156/190] Loss: 1.2401
+Average loss in epoch 31: 1.2482
+Epoch: 32
+[0/190] Loss: 1.2316
+[39/190] Loss: 1.2412
+[78/190] Loss: 1.2500
+[117/190] Loss: 1.2461
+[156/190] Loss: 1.2354
+Average loss in epoch 32: 1.2396
+Epoch: 33
+[0/190] Loss: 1.2594
+[39/190] Loss: 1.2397
+[78/190] Loss: 1.2342
+[117/190] Loss: 1.2121
+[156/190] Loss: 1.2441
+Average loss in epoch 33: 1.2321
+Epoch: 34
+[0/190] Loss: 1.2215
+[39/190] Loss: 1.2183
+[78/190] Loss: 1.2063
+[117/190] Loss: 1.2435
+[156/190] Loss: 1.2234
+Average loss in epoch 34: 1.2249
+Epoch: 35
+[0/190] Loss: 1.2157
+[39/190] Loss: 1.2139
+[78/190] Loss: 1.2170
+[117/190] Loss: 1.2264
+[156/190] Loss: 1.2226
+Average loss in epoch 35: 1.2178
+Epoch: 36
+[0/190] Loss: 1.2167
+[39/190] Loss: 1.1858
+[78/190] Loss: 1.2127
+[117/190] Loss: 1.2194
+[156/190] Loss: 1.2313
+Average loss in epoch 36: 1.2120
+Epoch: 37
+[0/190] Loss: 1.2275
+[39/190] Loss: 1.2001
+[78/190] Loss: 1.2029
+[117/190] Loss: 1.2002
+[156/190] Loss: 1.2175
+Average loss in epoch 37: 1.2064
+Epoch: 38
+[0/190] Loss: 1.1947
+[39/190] Loss: 1.1997
+[78/190] Loss: 1.2095
+[117/190] Loss: 1.2113
+[156/190] Loss: 1.2038
+Average loss in epoch 38: 1.2018
+Epoch: 39
+[0/190] Loss: 1.2067
+[39/190] Loss: 1.1884
+[78/190] Loss: 1.1781
+[117/190] Loss: 1.1965
+[156/190] Loss: 1.1912
+Average loss in epoch 39: 1.1961
+Epoch: 40
+[0/190] Loss: 1.1799
+[39/190] Loss: 1.1950
+[78/190] Loss: 1.2149
+[117/190] Loss: 1.1849
+[156/190] Loss: 1.1990
+Average loss in epoch 40: 1.1915
+start predicting:  2026-09-02 19:00:52.635403
+{'Best_HR@5': np.float64(8.0642), 'Best_HR@10': np.float64(14.5777), 'Best_HR@20': np.float64(25.145), 'Best_NDCG@5': np.float64(4.8702), 'Best_NDCG@10': np.float64(6.9451), 'Best_NDCG@20': np.float64(9.6015)}
+{'Best_epoch_HR@5': 40, 'Best_epoch_HR@10': 40, 'Best_epoch_HR@20': 40, 'Best_epoch_NDCG@5': 40, 'Best_epoch_NDCG@10': 40, 'Best_epoch_NDCG@20': 40}
+Epoch: 41
+[0/190] Loss: 1.1951
+[39/190] Loss: 1.1750
+[78/190] Loss: 1.2114
+[117/190] Loss: 1.1860
+[156/190] Loss: 1.2111
+Average loss in epoch 41: 1.1878
+Epoch: 42
+[0/190] Loss: 1.1784
+[39/190] Loss: 1.1937
+[78/190] Loss: 1.1810
+[117/190] Loss: 1.1832
+[156/190] Loss: 1.1869
+Average loss in epoch 42: 1.1835
+Epoch: 43
+[0/190] Loss: 1.1875
+[39/190] Loss: 1.1834
+[78/190] Loss: 1.1901
+[117/190] Loss: 1.1676
+[156/190] Loss: 1.1914
+Average loss in epoch 43: 1.1797
+Epoch: 44
+[0/190] Loss: 1.1742
+[39/190] Loss: 1.1704
+[78/190] Loss: 1.1533
+[117/190] Loss: 1.1893
+[156/190] Loss: 1.1893
+Average loss in epoch 44: 1.1758
+Epoch: 45
+[0/190] Loss: 1.1727
+[39/190] Loss: 1.1769
+[78/190] Loss: 1.1870
+[117/190] Loss: 1.1691
+[156/190] Loss: 1.1888
+Average loss in epoch 45: 1.1724
+Epoch: 46
+[0/190] Loss: 1.1684
+[39/190] Loss: 1.1721
+[78/190] Loss: 1.1803
+[117/190] Loss: 1.1643
+[156/190] Loss: 1.1787
+Average loss in epoch 46: 1.1698
+Epoch: 47
+[0/190] Loss: 1.1696
+[39/190] Loss: 1.1449
+[78/190] Loss: 1.1636
+[117/190] Loss: 1.1904
+[156/190] Loss: 1.1678
+Average loss in epoch 47: 1.1666
+Epoch: 48
+[0/190] Loss: 1.1544
+[39/190] Loss: 1.1665
+[78/190] Loss: 1.1736
+[117/190] Loss: 1.1732
+[156/190] Loss: 1.1647
+Average loss in epoch 48: 1.1632
+Epoch: 49
+[0/190] Loss: 1.1602
+[39/190] Loss: 1.1644
+[78/190] Loss: 1.1390
+[117/190] Loss: 1.1597
+[156/190] Loss: 1.1540
+Average loss in epoch 49: 1.1611
+Epoch: 50
+[0/190] Loss: 1.1528
+[39/190] Loss: 1.1385
+[78/190] Loss: 1.1497
+[117/190] Loss: 1.1796
+[156/190] Loss: 1.1398
+Average loss in epoch 50: 1.1588
+Epoch: 51
+[0/190] Loss: 1.1430
+[39/190] Loss: 1.1492
+[78/190] Loss: 1.1312
+[117/190] Loss: 1.1728
+[156/190] Loss: 1.1476
+Average loss in epoch 51: 1.1563
+Epoch: 52
+[0/190] Loss: 1.1499
+[39/190] Loss: 1.1479
+[78/190] Loss: 1.1480
+[117/190] Loss: 1.1432
+[156/190] Loss: 1.1441
+Average loss in epoch 52: 1.1538
+Epoch: 53
+[0/190] Loss: 1.1394
+[39/190] Loss: 1.1425
+[78/190] Loss: 1.1563
+[117/190] Loss: 1.1477
+[156/190] Loss: 1.1559
+Average loss in epoch 53: 1.1515
+Epoch: 54
+[0/190] Loss: 1.1539
+[39/190] Loss: 1.1496
+[78/190] Loss: 1.1456
+[117/190] Loss: 1.1644
+[156/190] Loss: 1.1565
+Average loss in epoch 54: 1.1490
+Epoch: 55
+[0/190] Loss: 1.1419
+[39/190] Loss: 1.1511
+[78/190] Loss: 1.1406
+[117/190] Loss: 1.1434
+[156/190] Loss: 1.1316
+Average loss in epoch 55: 1.1471
+Epoch: 56
+[0/190] Loss: 1.1231
+[39/190] Loss: 1.1619
+[78/190] Loss: 1.1474
+[117/190] Loss: 1.1175
+[156/190] Loss: 1.1547
+Average loss in epoch 56: 1.1454
+Epoch: 57
+[0/190] Loss: 1.1336
+[39/190] Loss: 1.1397
+[78/190] Loss: 1.1299
+[117/190] Loss: 1.1478
+[156/190] Loss: 1.1503
+Average loss in epoch 57: 1.1429
+Epoch: 58
+[0/190] Loss: 1.1367
+[39/190] Loss: 1.1536
+[78/190] Loss: 1.1468
+[117/190] Loss: 1.1227
+[156/190] Loss: 1.1635
+Average loss in epoch 58: 1.1407
+Epoch: 59
+[0/190] Loss: 1.1398
+[39/190] Loss: 1.1420
+[78/190] Loss: 1.1301
+[117/190] Loss: 1.1375
+[156/190] Loss: 1.1130
+Average loss in epoch 59: 1.1397
+Epoch: 60
+[0/190] Loss: 1.1362
+[39/190] Loss: 1.1343
+[78/190] Loss: 1.1341
+[117/190] Loss: 1.1477
+[156/190] Loss: 1.1418
+Average loss in epoch 60: 1.1382
+start predicting:  2026-09-02 19:09:09.946990
+{'Best_HR@5': np.float64(9.6025), 'Best_HR@10': np.float64(14.8832), 'Best_HR@20': np.float64(26.2926), 'Best_NDCG@5': np.float64(5.88), 'Best_NDCG@10': np.float64(7.5494), 'Best_NDCG@20': np.float64(10.4196)}
+{'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 60, 'Best_epoch_HR@20': 60, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 60, 'Best_epoch_NDCG@20': 60}
+Epoch: 61
+[0/190] Loss: 1.1371
+[39/190] Loss: 1.1441
+[78/190] Loss: 1.1276
+[117/190] Loss: 1.1342
+[156/190] Loss: 1.1328
+Average loss in epoch 61: 1.1366
+Epoch: 62
+[0/190] Loss: 1.1409
+[39/190] Loss: 1.0926
+[78/190] Loss: 1.1407
+[117/190] Loss: 1.1507
+[156/190] Loss: 1.1424
+Average loss in epoch 62: 1.1351
+Epoch: 63
+[0/190] Loss: 1.1281
+[39/190] Loss: 1.1331
+[78/190] Loss: 1.1266
+[117/190] Loss: 1.1317
+[156/190] Loss: 1.1456
+Average loss in epoch 63: 1.1337
+Epoch: 64
+[0/190] Loss: 1.1099
+[39/190] Loss: 1.1226
+[78/190] Loss: 1.1385
+[117/190] Loss: 1.1556
+[156/190] Loss: 1.1295
+Average loss in epoch 64: 1.1313
+Epoch: 65
+[0/190] Loss: 1.1347
+[39/190] Loss: 1.1164
+[78/190] Loss: 1.1341
+[117/190] Loss: 1.1285
+[156/190] Loss: 1.1277
+Average loss in epoch 65: 1.1305
+Epoch: 66
+[0/190] Loss: 1.1300
+[39/190] Loss: 1.1311
+[78/190] Loss: 1.1374
+[117/190] Loss: 1.1350
+[156/190] Loss: 1.1290
+Average loss in epoch 66: 1.1292
+Epoch: 67
+[0/190] Loss: 1.1191
+[39/190] Loss: 1.1246
+[78/190] Loss: 1.1245
+[117/190] Loss: 1.1213
+[156/190] Loss: 1.1280
+Average loss in epoch 67: 1.1279
+Epoch: 68
+[0/190] Loss: 1.1139
+[39/190] Loss: 1.0971
+[78/190] Loss: 1.1309
+[117/190] Loss: 1.1191
+[156/190] Loss: 1.1277
+Average loss in epoch 68: 1.1260
+Epoch: 69
+[0/190] Loss: 1.1144
+[39/190] Loss: 1.1386
+[78/190] Loss: 1.1280
+[117/190] Loss: 1.1299
+[156/190] Loss: 1.1327
+Average loss in epoch 69: 1.1246
+Epoch: 70
+[0/190] Loss: 1.1133
+[39/190] Loss: 1.1112
+[78/190] Loss: 1.1380
+[117/190] Loss: 1.1241
+[156/190] Loss: 1.1286
+Average loss in epoch 70: 1.1240
+Epoch: 71
+[0/190] Loss: 1.1231
+[39/190] Loss: 1.1068
+[78/190] Loss: 1.1303
+[117/190] Loss: 1.1122
+[156/190] Loss: 1.1480
+Average loss in epoch 71: 1.1219
+Epoch: 72
+[0/190] Loss: 1.1118
+[39/190] Loss: 1.1176
+[78/190] Loss: 1.1271
+[117/190] Loss: 1.1101
+[156/190] Loss: 1.1243
+Average loss in epoch 72: 1.1214
+Epoch: 73
+[0/190] Loss: 1.1240
+[39/190] Loss: 1.1219
+[78/190] Loss: 1.1284
+[117/190] Loss: 1.1281
+[156/190] Loss: 1.1206
+Average loss in epoch 73: 1.1200
+Epoch: 74
+[0/190] Loss: 1.1160
+[39/190] Loss: 1.1130
+[78/190] Loss: 1.0954
+[117/190] Loss: 1.1340
+[156/190] Loss: 1.1235
+Average loss in epoch 74: 1.1190
+Epoch: 75
+[0/190] Loss: 1.1054
+[39/190] Loss: 1.1173
+[78/190] Loss: 1.1203
+[117/190] Loss: 1.1042
+[156/190] Loss: 1.1137
+Average loss in epoch 75: 1.1182
+Epoch: 76
+[0/190] Loss: 1.1309
+[39/190] Loss: 1.1136
+[78/190] Loss: 1.1301
+[117/190] Loss: 1.1227
+[156/190] Loss: 1.1082
+Average loss in epoch 76: 1.1167
+Epoch: 77
+[0/190] Loss: 1.0945
+[39/190] Loss: 1.1032
+[78/190] Loss: 1.1385
+[117/190] Loss: 1.0935
+[156/190] Loss: 1.1005
+Average loss in epoch 77: 1.1158
+Epoch: 78
+[0/190] Loss: 1.1243
+[39/190] Loss: 1.0936
+[78/190] Loss: 1.1016
+[117/190] Loss: 1.1237
+[156/190] Loss: 1.1278
+Average loss in epoch 78: 1.1145
+Epoch: 79
+[0/190] Loss: 1.1094
+[39/190] Loss: 1.1009
+[78/190] Loss: 1.1409
+[117/190] Loss: 1.1230
+[156/190] Loss: 1.1119
+Average loss in epoch 79: 1.1139
+Epoch: 80
+[0/190] Loss: 1.1044
+[39/190] Loss: 1.1163
+[78/190] Loss: 1.1112
+[117/190] Loss: 1.1085
+[156/190] Loss: 1.1153
+Average loss in epoch 80: 1.1120
+start predicting:  2026-09-02 19:17:44.811813
+{'Best_HR@5': np.float64(9.6025), 'Best_HR@10': np.float64(16.0308), 'Best_HR@20': np.float64(26.2926), 'Best_NDCG@5': np.float64(5.88), 'Best_NDCG@10': np.float64(7.5494), 'Best_NDCG@20': np.float64(10.4196)}
+{'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 80, 'Best_epoch_HR@20': 60, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 60, 'Best_epoch_NDCG@20': 60}
+Epoch: 81
+[0/190] Loss: 1.0963
+[39/190] Loss: 1.0908
+[78/190] Loss: 1.1209
+[117/190] Loss: 1.1165
+[156/190] Loss: 1.1017
+Average loss in epoch 81: 1.1120
+Epoch: 82
+[0/190] Loss: 1.0967
+[39/190] Loss: 1.1007
+[78/190] Loss: 1.1398
+[117/190] Loss: 1.1176
+[156/190] Loss: 1.1039
+Average loss in epoch 82: 1.1110
+Epoch: 83
+[0/190] Loss: 1.1090
+[39/190] Loss: 1.1011
+[78/190] Loss: 1.1012
+[117/190] Loss: 1.0972
+[156/190] Loss: 1.1055
+Average loss in epoch 83: 1.1097
+Epoch: 84
+[0/190] Loss: 1.1167
+[39/190] Loss: 1.1148
+[78/190] Loss: 1.1077
+[117/190] Loss: 1.1072
+[156/190] Loss: 1.1189
+Average loss in epoch 84: 1.1093
+Epoch: 85
+[0/190] Loss: 1.0849
+[39/190] Loss: 1.1224
+[78/190] Loss: 1.0946
+[117/190] Loss: 1.1263
+[156/190] Loss: 1.1354
+Average loss in epoch 85: 1.1077
+Epoch: 86
+[0/190] Loss: 1.0738
+[39/190] Loss: 1.1052
+[78/190] Loss: 1.1115
+[117/190] Loss: 1.0878
+[156/190] Loss: 1.1126
+Average loss in epoch 86: 1.1067
+Epoch: 87
+[0/190] Loss: 1.0958
+[39/190] Loss: 1.1276
+[78/190] Loss: 1.0993
+[117/190] Loss: 1.1280
+[156/190] Loss: 1.1019
+Average loss in epoch 87: 1.1059
+Epoch: 88
+[0/190] Loss: 1.0950
+[39/190] Loss: 1.1037
+[78/190] Loss: 1.1115
+[117/190] Loss: 1.1098
+[156/190] Loss: 1.1222
+Average loss in epoch 88: 1.1051
+Epoch: 89
+[0/190] Loss: 1.0970
+[39/190] Loss: 1.1159
+[78/190] Loss: 1.1030
+[117/190] Loss: 1.1115
+[156/190] Loss: 1.1169
+Average loss in epoch 89: 1.1040
+Epoch: 90
+[0/190] Loss: 1.1138
+[39/190] Loss: 1.1112
+[78/190] Loss: 1.1013
+[117/190] Loss: 1.0977
+[156/190] Loss: 1.1100
+Average loss in epoch 90: 1.1030
+Epoch: 91
+[0/190] Loss: 1.0971
+[39/190] Loss: 1.1029
+[78/190] Loss: 1.1130
+[117/190] Loss: 1.0892
+[156/190] Loss: 1.1218
+Average loss in epoch 91: 1.1022
+Epoch: 92
+[0/190] Loss: 1.0925
+[39/190] Loss: 1.0974
+[78/190] Loss: 1.1242
+[117/190] Loss: 1.0983
+[156/190] Loss: 1.1008
+Average loss in epoch 92: 1.1014
+Epoch: 93
+[0/190] Loss: 1.0787
+[39/190] Loss: 1.1140
+[78/190] Loss: 1.1131
+[117/190] Loss: 1.1146
+[156/190] Loss: 1.0882
+Average loss in epoch 93: 1.1005
+Epoch: 94
+[0/190] Loss: 1.1147
+[39/190] Loss: 1.0819
+[78/190] Loss: 1.0811
+[117/190] Loss: 1.1157
+[156/190] Loss: 1.1124
+Average loss in epoch 94: 1.0996
+Epoch: 95
+[0/190] Loss: 1.1007
+[39/190] Loss: 1.0725
+[78/190] Loss: 1.1230
+[117/190] Loss: 1.0988
+[156/190] Loss: 1.0889
+Average loss in epoch 95: 1.0985
+Epoch: 96
+[0/190] Loss: 1.0833
+[39/190] Loss: 1.0842
+[78/190] Loss: 1.0871
+[117/190] Loss: 1.1054
+[156/190] Loss: 1.1133
+Average loss in epoch 96: 1.0985
+Epoch: 97
+[0/190] Loss: 1.0810
+[39/190] Loss: 1.0722
+[78/190] Loss: 1.1163
+[117/190] Loss: 1.0921
+[156/190] Loss: 1.0856
+Average loss in epoch 97: 1.0977
+Epoch: 98
+[0/190] Loss: 1.0925
+[39/190] Loss: 1.1058
+[78/190] Loss: 1.0797
+[117/190] Loss: 1.0947
+[156/190] Loss: 1.0892
+Average loss in epoch 98: 1.0968
+Epoch: 99
+[0/190] Loss: 1.0943
+[39/190] Loss: 1.0930
+[78/190] Loss: 1.1037
+[117/190] Loss: 1.0706
+[156/190] Loss: 1.1096
+Average loss in epoch 99: 1.0958
+Epoch: 100
+[0/190] Loss: 1.0908
+[39/190] Loss: 1.1044
+[78/190] Loss: 1.0931
+[117/190] Loss: 1.1160
+[156/190] Loss: 1.0845
+Average loss in epoch 100: 1.0856
+start predicting:  2026-09-02 19:26:40.335397
+{'Best_HR@5': np.float64(9.6025), 'Best_HR@10': np.float64(16.7511), 'Best_HR@20': np.float64(26.7324), 'Best_NDCG@5': np.float64(5.88), 'Best_NDCG@10': np.float64(8.1374), 'Best_NDCG@20': np.float64(10.6316)}
+{'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 100, 'Best_epoch_HR@20': 100, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 100, 'Best_epoch_NDCG@20': 100}
+Epoch: 101
+[0/190] Loss: 1.0736
+[39/190] Loss: 1.0962
+[78/190] Loss: 1.0790
+[117/190] Loss: 1.0900
+[156/190] Loss: 1.1014
+Average loss in epoch 101: 1.0834
+Epoch: 102
+[0/190] Loss: 1.0857
+[39/190] Loss: 1.0700
+[78/190] Loss: 1.0766
+[117/190] Loss: 1.0659
+[156/190] Loss: 1.0988
+Average loss in epoch 102: 1.0824
+Epoch: 103
+[0/190] Loss: 1.0660
+[39/190] Loss: 1.0764
+[78/190] Loss: 1.0848
+[117/190] Loss: 1.0906
+[156/190] Loss: 1.1007
+Average loss in epoch 103: 1.0811
+Epoch: 104
+[0/190] Loss: 1.0791
+[39/190] Loss: 1.0752
+[78/190] Loss: 1.0655
+[117/190] Loss: 1.0847
+[156/190] Loss: 1.0749
+Average loss in epoch 104: 1.0808
+Epoch: 105
+[0/190] Loss: 1.1080
+[39/190] Loss: 1.0878
+[78/190] Loss: 1.0548
+[117/190] Loss: 1.0902
+[156/190] Loss: 1.0928
+Average loss in epoch 105: 1.0799
+Epoch: 106
+[0/190] Loss: 1.0671
+[39/190] Loss: 1.0659
+[78/190] Loss: 1.0837
+[117/190] Loss: 1.0864
+[156/190] Loss: 1.0674
+Average loss in epoch 106: 1.0790
+Epoch: 107
+[0/190] Loss: 1.0858
+[39/190] Loss: 1.0789
+[78/190] Loss: 1.0807
+[117/190] Loss: 1.0947
+[156/190] Loss: 1.0751
+Average loss in epoch 107: 1.0796
+Epoch: 108
+[0/190] Loss: 1.0909
+[39/190] Loss: 1.0803
+[78/190] Loss: 1.0944
+[117/190] Loss: 1.1024
+[156/190] Loss: 1.0904
+Average loss in epoch 108: 1.0788
+Epoch: 109
+[0/190] Loss: 1.0658
+[39/190] Loss: 1.0799
+[78/190] Loss: 1.1020
+[117/190] Loss: 1.0646
+[156/190] Loss: 1.0887
+Average loss in epoch 109: 1.0785
+Epoch: 110
+[0/190] Loss: 1.0585
+[39/190] Loss: 1.0898
+[78/190] Loss: 1.0694
+[117/190] Loss: 1.0482
+[156/190] Loss: 1.0748
+Average loss in epoch 110: 1.0786
+Epoch: 111
+[0/190] Loss: 1.0727
+[39/190] Loss: 1.0719
+[78/190] Loss: 1.0680
+[117/190] Loss: 1.0905
+[156/190] Loss: 1.0940
+Average loss in epoch 111: 1.0780
+Epoch: 112
+[0/190] Loss: 1.0651
+[39/190] Loss: 1.0866
+[78/190] Loss: 1.0832
+[117/190] Loss: 1.0890
+[156/190] Loss: 1.0701
+Average loss in epoch 112: 1.0776
+Epoch: 113
+[0/190] Loss: 1.0873
+[39/190] Loss: 1.0835
+[78/190] Loss: 1.0831
+[117/190] Loss: 1.0873
+[156/190] Loss: 1.0865
+Average loss in epoch 113: 1.0777
+Epoch: 114
+[0/190] Loss: 1.0969
+[39/190] Loss: 1.0804
+[78/190] Loss: 1.0759
+[117/190] Loss: 1.0790
+[156/190] Loss: 1.0590
+Average loss in epoch 114: 1.0772
+Epoch: 115
+[0/190] Loss: 1.0735
+[39/190] Loss: 1.0983
+[78/190] Loss: 1.0606
+[117/190] Loss: 1.0809
+[156/190] Loss: 1.0611
+Average loss in epoch 115: 1.0768
+Epoch: 116
+[0/190] Loss: 1.0592
+[39/190] Loss: 1.0610
+[78/190] Loss: 1.0671
+[117/190] Loss: 1.0677
+[156/190] Loss: 1.0748
+Average loss in epoch 116: 1.0767
+Epoch: 117
+[0/190] Loss: 1.0705
+[39/190] Loss: 1.0761
+[78/190] Loss: 1.1075
+[117/190] Loss: 1.0899
+[156/190] Loss: 1.0942
+Average loss in epoch 117: 1.0763
+Epoch: 118
+[0/190] Loss: 1.0640
+[39/190] Loss: 1.0902
+[78/190] Loss: 1.0718
+[117/190] Loss: 1.0786
+[156/190] Loss: 1.0928
+Average loss in epoch 118: 1.0760
+Epoch: 119
+[0/190] Loss: 1.0991
+[39/190] Loss: 1.0634
+[78/190] Loss: 1.0414
+[117/190] Loss: 1.0775
+[156/190] Loss: 1.0696
+Average loss in epoch 119: 1.0755
+Epoch: 120
+[0/190] Loss: 1.0873
+[39/190] Loss: 1.0594
+[78/190] Loss: 1.0772
+[117/190] Loss: 1.0896
+[156/190] Loss: 1.0740
+Average loss in epoch 120: 1.0758
+start predicting:  2026-09-02 19:35:31.486087
+{'Best_HR@5': np.float64(9.6025), 'Best_HR@10': np.float64(17.4105), 'Best_HR@20': np.float64(27.068), 'Best_NDCG@5': np.float64(5.88), 'Best_NDCG@10': np.float64(8.1374), 'Best_NDCG@20': np.float64(10.6316)}
+{'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 120, 'Best_epoch_HR@20': 120, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 100, 'Best_epoch_NDCG@20': 100}
+Epoch: 121
+[0/190] Loss: 1.0869
+[39/190] Loss: 1.0554
+[78/190] Loss: 1.0833
+[117/190] Loss: 1.0809
+[156/190] Loss: 1.0527
+Average loss in epoch 121: 1.0753
+Epoch: 122
+[0/190] Loss: 1.0724
+[39/190] Loss: 1.0863
+[78/190] Loss: 1.0641
+[117/190] Loss: 1.0582
+[156/190] Loss: 1.0781
+Average loss in epoch 122: 1.0754
+Epoch: 123
+[0/190] Loss: 1.0674
+[39/190] Loss: 1.0836
+[78/190] Loss: 1.0749
+[117/190] Loss: 1.0697
+[156/190] Loss: 1.0634
+Average loss in epoch 123: 1.0752
+Epoch: 124
+[0/190] Loss: 1.0644
+[39/190] Loss: 1.1020
+[78/190] Loss: 1.0812
+[117/190] Loss: 1.0787
+[156/190] Loss: 1.0662
+Average loss in epoch 124: 1.0750
+Epoch: 125
+[0/190] Loss: 1.0686
+[39/190] Loss: 1.0886
+[78/190] Loss: 1.0749
+[117/190] Loss: 1.0932
+[156/190] Loss: 1.0882
+Average loss in epoch 125: 1.0749
+Epoch: 126
+[0/190] Loss: 1.0681
+[39/190] Loss: 1.0738
+[78/190] Loss: 1.1151
+[117/190] Loss: 1.0678
+[156/190] Loss: 1.0790
+Average loss in epoch 126: 1.0744
+Epoch: 127
+[0/190] Loss: 1.0766
+[39/190] Loss: 1.0693
+[78/190] Loss: 1.0599
+[117/190] Loss: 1.0679
+[156/190] Loss: 1.0725
+Average loss in epoch 127: 1.0741
+Epoch: 128
+[0/190] Loss: 1.0705
+[39/190] Loss: 1.0565
+[78/190] Loss: 1.0688
+[117/190] Loss: 1.1015
+[156/190] Loss: 1.0669
+Average loss in epoch 128: 1.0740
+Epoch: 129
+[0/190] Loss: 1.0705
+[39/190] Loss: 1.0774
+[78/190] Loss: 1.0983
+[117/190] Loss: 1.1010
+[156/190] Loss: 1.0711
+Average loss in epoch 129: 1.0741
+Epoch: 130
+[0/190] Loss: 1.0905
+[39/190] Loss: 1.0844
+[78/190] Loss: 1.0581
+[117/190] Loss: 1.0736
+[156/190] Loss: 1.0772
+Average loss in epoch 130: 1.0732
+Epoch: 131
+[0/190] Loss: 1.0907
+[39/190] Loss: 1.0887
+[78/190] Loss: 1.0521
+[117/190] Loss: 1.0520
+[156/190] Loss: 1.0661
+Average loss in epoch 131: 1.0733
+Epoch: 132
+[0/190] Loss: 1.0693
+[39/190] Loss: 1.0681
+[78/190] Loss: 1.0663
+[117/190] Loss: 1.0663
+[156/190] Loss: 1.0858
+Average loss in epoch 132: 1.0728
+Epoch: 133
+[0/190] Loss: 1.0696
+[39/190] Loss: 1.0617
+[78/190] Loss: 1.0634
+[117/190] Loss: 1.0748
+[156/190] Loss: 1.0704
+Average loss in epoch 133: 1.0726
+Epoch: 134
+[0/190] Loss: 1.0778
+[39/190] Loss: 1.0866
+[78/190] Loss: 1.0909
+[117/190] Loss: 1.0855
+[156/190] Loss: 1.0793
+Average loss in epoch 134: 1.0719
+Epoch: 135
+[0/190] Loss: 1.0694
+[39/190] Loss: 1.0716
+[78/190] Loss: 1.0707
+[117/190] Loss: 1.0634
+[156/190] Loss: 1.0804
+Average loss in epoch 135: 1.0727
+Epoch: 136
+[0/190] Loss: 1.0396
+[39/190] Loss: 1.0561
+[78/190] Loss: 1.0710
+[117/190] Loss: 1.0859
+[156/190] Loss: 1.0599
+Average loss in epoch 136: 1.0726
+Epoch: 137
+[0/190] Loss: 1.0863
+[39/190] Loss: 1.0684
+[78/190] Loss: 1.0689
+[117/190] Loss: 1.0606
+[156/190] Loss: 1.0767
+Average loss in epoch 137: 1.0721
+Epoch: 138
+[0/190] Loss: 1.0686
+[39/190] Loss: 1.0784
+[78/190] Loss: 1.0786
+[117/190] Loss: 1.0618
+[156/190] Loss: 1.0592
+Average loss in epoch 138: 1.0724
+Epoch: 139
+[0/190] Loss: 1.0733
+[39/190] Loss: 1.0701
+[78/190] Loss: 1.0625
+[117/190] Loss: 1.0922
+[156/190] Loss: 1.0621
+Average loss in epoch 139: 1.0717
+Epoch: 140
+[0/190] Loss: 1.0779
+[39/190] Loss: 1.0695
+[78/190] Loss: 1.0497
+[117/190] Loss: 1.0799
+[156/190] Loss: 1.0791
+Average loss in epoch 140: 1.0719
+start predicting:  2026-09-02 19:44:27.550998
+Epoch: 141
+[0/190] Loss: 1.0760
+[39/190] Loss: 1.0743
+[78/190] Loss: 1.0703
+[117/190] Loss: 1.0725
+[156/190] Loss: 1.0712
+Average loss in epoch 141: 1.0714
+Epoch: 142
+[0/190] Loss: 1.0571
+[39/190] Loss: 1.0673
+[78/190] Loss: 1.0717
+[117/190] Loss: 1.0587
+[156/190] Loss: 1.0804
+Average loss in epoch 142: 1.0719
+Epoch: 143
+[0/190] Loss: 1.0671
+[39/190] Loss: 1.0824
+[78/190] Loss: 1.0762
+[117/190] Loss: 1.0678
+[156/190] Loss: 1.0768
+Average loss in epoch 143: 1.0711
+Epoch: 144
+[0/190] Loss: 1.0675
+[39/190] Loss: 1.0628
+[78/190] Loss: 1.0671
+[117/190] Loss: 1.0734
+[156/190] Loss: 1.0534
+Average loss in epoch 144: 1.0707
+Epoch: 145
+[0/190] Loss: 1.0579
+[39/190] Loss: 1.0897
+[78/190] Loss: 1.0970
+[117/190] Loss: 1.0575
+[156/190] Loss: 1.0553
+Average loss in epoch 145: 1.0709
+Epoch: 146
+[0/190] Loss: 1.0549
+[39/190] Loss: 1.0532
+[78/190] Loss: 1.0598
+[117/190] Loss: 1.0723
+[156/190] Loss: 1.0761
+Average loss in epoch 146: 1.0703
+Epoch: 147
+[0/190] Loss: 1.0783
+[39/190] Loss: 1.0826
+[78/190] Loss: 1.0631
+[117/190] Loss: 1.0606
+[156/190] Loss: 1.0757
+Average loss in epoch 147: 1.0712
+Epoch: 148
+[0/190] Loss: 1.0732
+[39/190] Loss: 1.0740
+[78/190] Loss: 1.0679
+[117/190] Loss: 1.0447
+[156/190] Loss: 1.0691
+Average loss in epoch 148: 1.0699
+Epoch: 149
+[0/190] Loss: 1.0667
+[39/190] Loss: 1.0689
+[78/190] Loss: 1.0610
+[117/190] Loss: 1.0547
+[156/190] Loss: 1.0546
+Average loss in epoch 149: 1.0707
+Epoch: 150
+[0/190] Loss: 1.0663
+[39/190] Loss: 1.0849
+[78/190] Loss: 1.0716
+[117/190] Loss: 1.0789
+[156/190] Loss: 1.0623
+Average loss in epoch 150: 1.0696
+Epoch: 151
+[0/190] Loss: 1.0883
+[39/190] Loss: 1.0671
+[78/190] Loss: 1.0787
+[117/190] Loss: 1.0637
+[156/190] Loss: 1.0683
+Average loss in epoch 151: 1.0700
+Epoch: 152
+[0/190] Loss: 1.0751
+[39/190] Loss: 1.0569
+[78/190] Loss: 1.0613
+[117/190] Loss: 1.0759
+[156/190] Loss: 1.0748
+Average loss in epoch 152: 1.0700
+Epoch: 153
+[0/190] Loss: 1.0735
+[39/190] Loss: 1.0616
+[78/190] Loss: 1.0866
+[117/190] Loss: 1.0718
+[156/190] Loss: 1.0803
+Average loss in epoch 153: 1.0696
+Epoch: 154
+[0/190] Loss: 1.0663
+[39/190] Loss: 1.0814
+[78/190] Loss: 1.0877
+[117/190] Loss: 1.0683
+[156/190] Loss: 1.0512
+Average loss in epoch 154: 1.0694
+Epoch: 155
+[0/190] Loss: 1.0389
+[39/190] Loss: 1.0782
+[78/190] Loss: 1.0572
+[117/190] Loss: 1.0510
+[156/190] Loss: 1.0738
+Average loss in epoch 155: 1.0689
+Epoch: 156
+[0/190] Loss: 1.0544
+[39/190] Loss: 1.0684
+[78/190] Loss: 1.0644
+[117/190] Loss: 1.0552
+[156/190] Loss: 1.0709
+Average loss in epoch 156: 1.0689
+Epoch: 157
+[0/190] Loss: 1.0605
+[39/190] Loss: 1.0672
+[78/190] Loss: 1.0736
+[117/190] Loss: 1.0666
+[156/190] Loss: 1.0773
+Average loss in epoch 157: 1.0687
+Epoch: 158
+[0/190] Loss: 1.0597
+[39/190] Loss: 1.0699
+[78/190] Loss: 1.0675
+[117/190] Loss: 1.0678
+[156/190] Loss: 1.0812
+Average loss in epoch 158: 1.0685
+Epoch: 159
+[0/190] Loss: 1.0546
+[39/190] Loss: 1.0786
+[78/190] Loss: 1.0622
+[117/190] Loss: 1.0664
+[156/190] Loss: 1.0532
+Average loss in epoch 159: 1.0681
+Epoch: 160
+[0/190] Loss: 1.0733
+[39/190] Loss: 1.0764
+[78/190] Loss: 1.0676
+[117/190] Loss: 1.0684
+[156/190] Loss: 1.0752
+Average loss in epoch 160: 1.0685
+start predicting:  2026-09-02 19:53:16.127011
+Epoch: 161
+[0/190] Loss: 1.0652
+[39/190] Loss: 1.0562
+[78/190] Loss: 1.0760
+[117/190] Loss: 1.0630
+[156/190] Loss: 1.0586
+Average loss in epoch 161: 1.0684
+Epoch: 162
+[0/190] Loss: 1.0871
+[39/190] Loss: 1.0594
+[78/190] Loss: 1.0475
+[117/190] Loss: 1.0538
+[156/190] Loss: 1.0752
+Average loss in epoch 162: 1.0682
+Epoch: 163
+[0/190] Loss: 1.0745
+[39/190] Loss: 1.0707
+[78/190] Loss: 1.0714
+[117/190] Loss: 1.0714
+[156/190] Loss: 1.0789
+Average loss in epoch 163: 1.0681
+Epoch: 164
+[0/190] Loss: 1.0811
+[39/190] Loss: 1.0633
+[78/190] Loss: 1.0742
+[117/190] Loss: 1.0521
+[156/190] Loss: 1.0562
+Average loss in epoch 164: 1.0678
+Epoch: 165
+[0/190] Loss: 1.0635
+[39/190] Loss: 1.0822
+[78/190] Loss: 1.0677
+[117/190] Loss: 1.0693
+[156/190] Loss: 1.0746
+Average loss in epoch 165: 1.0682
+Epoch: 166
+[0/190] Loss: 1.0867
+[39/190] Loss: 1.0698
+[78/190] Loss: 1.0673
+[117/190] Loss: 1.0562
+[156/190] Loss: 1.0763
+Average loss in epoch 166: 1.0678
+Epoch: 167
+[0/190] Loss: 1.0747
+[39/190] Loss: 1.0388
+[78/190] Loss: 1.0834
+[117/190] Loss: 1.0541
+[156/190] Loss: 1.0828
+Average loss in epoch 167: 1.0679
+Epoch: 168
+[0/190] Loss: 1.0951
+[39/190] Loss: 1.0641
+[78/190] Loss: 1.0550
+[117/190] Loss: 1.0591
+[156/190] Loss: 1.0488
+Average loss in epoch 168: 1.0678
+Epoch: 169
+[0/190] Loss: 1.0699
+[39/190] Loss: 1.0707
+[78/190] Loss: 1.0797
+[117/190] Loss: 1.0658
+[156/190] Loss: 1.0635
+Average loss in epoch 169: 1.0670
+Epoch: 170
+[0/190] Loss: 1.0775
+[39/190] Loss: 1.0751
+[78/190] Loss: 1.0557
+[117/190] Loss: 1.0514
+[156/190] Loss: 1.0604
+Average loss in epoch 170: 1.0669
+Epoch: 171
+[0/190] Loss: 1.0691
+[39/190] Loss: 1.0527
+[78/190] Loss: 1.0776
+[117/190] Loss: 1.0741
+[156/190] Loss: 1.0834
+Average loss in epoch 171: 1.0671
+Epoch: 172
+[0/190] Loss: 1.0636
+[39/190] Loss: 1.0812
+[78/190] Loss: 1.0571
+[117/190] Loss: 1.0298
+[156/190] Loss: 1.0766
+Average loss in epoch 172: 1.0666
+Epoch: 173
+[0/190] Loss: 1.0776
+[39/190] Loss: 1.0531
+[78/190] Loss: 1.0749
+[117/190] Loss: 1.0709
+[156/190] Loss: 1.0624
+Average loss in epoch 173: 1.0669
+Epoch: 174
+[0/190] Loss: 1.0510
+[39/190] Loss: 1.0667
+[78/190] Loss: 1.0836
+[117/190] Loss: 1.0676
+[156/190] Loss: 1.0716
+Average loss in epoch 174: 1.0671
+Epoch: 175
+[0/190] Loss: 1.0582
+[39/190] Loss: 1.0463
+[78/190] Loss: 1.0683
+[117/190] Loss: 1.0702
+[156/190] Loss: 1.0663
+Average loss in epoch 175: 1.0664
+Epoch: 176
+[0/190] Loss: 1.0461
+[39/190] Loss: 1.0564
+[78/190] Loss: 1.0673
+[117/190] Loss: 1.0497
+[156/190] Loss: 1.0510
+Average loss in epoch 176: 1.0667
+Epoch: 177
+[0/190] Loss: 1.0756
+[39/190] Loss: 1.0582
+[78/190] Loss: 1.0792
+[117/190] Loss: 1.0635
+[156/190] Loss: 1.0893
+Average loss in epoch 177: 1.0659
+Epoch: 178
+[0/190] Loss: 1.0495
+[39/190] Loss: 1.0662
+[78/190] Loss: 1.0700
+[117/190] Loss: 1.0632
+[156/190] Loss: 1.0681
+Average loss in epoch 178: 1.0663
+Epoch: 179
+[0/190] Loss: 1.0949
+[39/190] Loss: 1.0574
+[78/190] Loss: 1.0476
+[117/190] Loss: 1.0782
+[156/190] Loss: 1.0689
+Average loss in epoch 179: 1.0661
+Epoch: 180
+[0/190] Loss: 1.0632
+[39/190] Loss: 1.0518
+[78/190] Loss: 1.0680
+[117/190] Loss: 1.0532
+[156/190] Loss: 1.0741
+Average loss in epoch 180: 1.0655
+start predicting:  2026-09-02 20:02:05.878591
+Epoch: 181
+[0/190] Loss: 1.0648
+[39/190] Loss: 1.0485
+[78/190] Loss: 1.0376
+[117/190] Loss: 1.0612
+[156/190] Loss: 1.0762
+Average loss in epoch 181: 1.0657
+Epoch: 182
+[0/190] Loss: 1.0856
+[39/190] Loss: 1.0753
+[78/190] Loss: 1.0872
+[117/190] Loss: 1.0921
+[156/190] Loss: 1.0851
+Average loss in epoch 182: 1.0652
+Epoch: 183
+[0/190] Loss: 1.0624
+[39/190] Loss: 1.0800
+[78/190] Loss: 1.0663
+[117/190] Loss: 1.0804
+[156/190] Loss: 1.0543
+Average loss in epoch 183: 1.0654
+Epoch: 184
+[0/190] Loss: 1.0528
+[39/190] Loss: 1.0625
+[78/190] Loss: 1.0614
+[117/190] Loss: 1.0636
+[156/190] Loss: 1.0774
+Average loss in epoch 184: 1.0648
+Epoch: 185
+[0/190] Loss: 1.0744
+[39/190] Loss: 1.0413
+[78/190] Loss: 1.0539
+[117/190] Loss: 1.0783
+[156/190] Loss: 1.0790
+Average loss in epoch 185: 1.0652
+Epoch: 186
+[0/190] Loss: 1.0648
+[39/190] Loss: 1.0533
+[78/190] Loss: 1.0653
+[117/190] Loss: 1.0495
+[156/190] Loss: 1.0757
+Average loss in epoch 186: 1.0646
+Epoch: 187
+[0/190] Loss: 1.0593
+[39/190] Loss: 1.0966
+[78/190] Loss: 1.0634
+[117/190] Loss: 1.0778
+[156/190] Loss: 1.0580
+Average loss in epoch 187: 1.0650
+Epoch: 188
+[0/190] Loss: 1.0741
+[39/190] Loss: 1.0517
+[78/190] Loss: 1.0607
+[117/190] Loss: 1.0790
+[156/190] Loss: 1.0570
+Average loss in epoch 188: 1.0646
+Epoch: 189
+[0/190] Loss: 1.0780
+[39/190] Loss: 1.0763
+[78/190] Loss: 1.0704
+[117/190] Loss: 1.0533
+[156/190] Loss: 1.0834
+Average loss in epoch 189: 1.0648
+Epoch: 190
+[0/190] Loss: 1.0506
+[39/190] Loss: 1.0571
+[78/190] Loss: 1.0575
+[117/190] Loss: 1.0736
+[156/190] Loss: 1.0927
+Average loss in epoch 190: 1.0642
+Epoch: 191
+[0/190] Loss: 1.0671
+[39/190] Loss: 1.0703
+[78/190] Loss: 1.0689
+[117/190] Loss: 1.0611
+[156/190] Loss: 1.0724
+Average loss in epoch 191: 1.0647
+Epoch: 192
+[0/190] Loss: 1.0821
+[39/190] Loss: 1.0429
+[78/190] Loss: 1.0781
+[117/190] Loss: 1.0726
+[156/190] Loss: 1.0517
+Average loss in epoch 192: 1.0643
+Epoch: 193
+[0/190] Loss: 1.0644
+[39/190] Loss: 1.0546
+[78/190] Loss: 1.0633
+[117/190] Loss: 1.0681
+[156/190] Loss: 1.0713
+Average loss in epoch 193: 1.0639
+Epoch: 194
+[0/190] Loss: 1.0607
+[39/190] Loss: 1.0588
+[78/190] Loss: 1.0541
+[117/190] Loss: 1.0857
+[156/190] Loss: 1.0481
+Average loss in epoch 194: 1.0638
+Epoch: 195
+[0/190] Loss: 1.0636
+[39/190] Loss: 1.0521
+[78/190] Loss: 1.0783
+[117/190] Loss: 1.0533
+[156/190] Loss: 1.0623
+Average loss in epoch 195: 1.0636
+Epoch: 196
+[0/190] Loss: 1.0760
+[39/190] Loss: 1.0623
+[78/190] Loss: 1.0810
+[117/190] Loss: 1.0629
+[156/190] Loss: 1.0650
+Average loss in epoch 196: 1.0636
+Epoch: 197
+[0/190] Loss: 1.0596
+[39/190] Loss: 1.0613
+[78/190] Loss: 1.0572
+[117/190] Loss: 1.0555
+[156/190] Loss: 1.0742
+Average loss in epoch 197: 1.0637
+Epoch: 198
+[0/190] Loss: 1.0567
+[39/190] Loss: 1.0465
+[78/190] Loss: 1.0493
+[117/190] Loss: 1.0651
+[156/190] Loss: 1.0724
+Average loss in epoch 198: 1.0635
+Epoch: 199
+[0/190] Loss: 1.0443
+[39/190] Loss: 1.0654
+[78/190] Loss: 1.0746
+[117/190] Loss: 1.0478
+[156/190] Loss: 1.0604
+Average loss in epoch 199: 1.0633
+Epoch: 200
+[0/190] Loss: 1.0664
+[39/190] Loss: 1.0353
+[78/190] Loss: 1.0576
+[117/190] Loss: 1.0719
+[156/190] Loss: 1.0569
+Average loss in epoch 200: 1.0622
+start predicting:  2026-09-02 20:10:57.527759
+Epoch: 201
+[0/190] Loss: 1.0617
+[39/190] Loss: 1.0715
+[78/190] Loss: 1.0607
+[117/190] Loss: 1.0520
+[156/190] Loss: 1.0605
+Average loss in epoch 201: 1.0620
+Epoch: 202
+[0/190] Loss: 1.0390
+[39/190] Loss: 1.0391
+[78/190] Loss: 1.0839
+[117/190] Loss: 1.0567
+[156/190] Loss: 1.0840
+Average loss in epoch 202: 1.0620
+Epoch: 203
+[0/190] Loss: 1.0533
+[39/190] Loss: 1.0377
+[78/190] Loss: 1.0391
+[117/190] Loss: 1.0463
+[156/190] Loss: 1.0583
+Average loss in epoch 203: 1.0615
+Epoch: 204
+[0/190] Loss: 1.0809
+[39/190] Loss: 1.0842
+[78/190] Loss: 1.0725
+[117/190] Loss: 1.0645
+[156/190] Loss: 1.0857
+Average loss in epoch 204: 1.0618
+Epoch: 205
+[0/190] Loss: 1.0514
+[39/190] Loss: 1.0616
+[78/190] Loss: 1.0425
+[117/190] Loss: 1.0656
+[156/190] Loss: 1.0766
+Average loss in epoch 205: 1.0615
+Epoch: 206
+[0/190] Loss: 1.0680
+[39/190] Loss: 1.0718
+[78/190] Loss: 1.0424
+[117/190] Loss: 1.0660
+[156/190] Loss: 1.0464
+Average loss in epoch 206: 1.0616
+Epoch: 207
+[0/190] Loss: 1.0649
+[39/190] Loss: 1.0793
+[78/190] Loss: 1.0498
+[117/190] Loss: 1.0734
+[156/190] Loss: 1.0507
+Average loss in epoch 207: 1.0620
+Epoch: 208
+[0/190] Loss: 1.0625
+[39/190] Loss: 1.0686
+[78/190] Loss: 1.0436
+[117/190] Loss: 1.0748
+[156/190] Loss: 1.0818
+Average loss in epoch 208: 1.0616
+Epoch: 209
+[0/190] Loss: 1.0640
+[39/190] Loss: 1.0495
+[78/190] Loss: 1.0589
+[117/190] Loss: 1.0747
+[156/190] Loss: 1.0366
+Average loss in epoch 209: 1.0616
+Epoch: 210
+[0/190] Loss: 1.0601
+[39/190] Loss: 1.0758
+[78/190] Loss: 1.0530
+[117/190] Loss: 1.0486
+[156/190] Loss: 1.0819
+Average loss in epoch 210: 1.0615
+Epoch: 211
+[0/190] Loss: 1.0792
+[39/190] Loss: 1.0662
+[78/190] Loss: 1.0377
+[117/190] Loss: 1.0702
+[156/190] Loss: 1.0714
+Average loss in epoch 211: 1.0610
+Epoch: 212
+[0/190] Loss: 1.0529
+[39/190] Loss: 1.0711
+[78/190] Loss: 1.0678
+[117/190] Loss: 1.0517
+[156/190] Loss: 1.0613
+Average loss in epoch 212: 1.0619
+Epoch: 213
+[0/190] Loss: 1.0609
+[39/190] Loss: 1.0672
+[78/190] Loss: 1.0965
+[117/190] Loss: 1.0398
+[156/190] Loss: 1.0492
+Average loss in epoch 213: 1.0614
+Epoch: 214
+[0/190] Loss: 1.0633
+[39/190] Loss: 1.0495
+[78/190] Loss: 1.0802
+[117/190] Loss: 1.0640
+[156/190] Loss: 1.0701
+Average loss in epoch 214: 1.0616
+Epoch: 215
+[0/190] Loss: 1.0385
+[39/190] Loss: 1.0828
+[78/190] Loss: 1.0496
+[117/190] Loss: 1.0547
+[156/190] Loss: 1.0567
+Average loss in epoch 215: 1.0607
+Epoch: 216
+[0/190] Loss: 1.0671
+[39/190] Loss: 1.0496
+[78/190] Loss: 1.0507
+[117/190] Loss: 1.0642
+[156/190] Loss: 1.0448
+Average loss in epoch 216: 1.0618
+Epoch: 217
+[0/190] Loss: 1.0573
+[39/190] Loss: 1.0549
+[78/190] Loss: 1.0918
+[117/190] Loss: 1.0640
+[156/190] Loss: 1.0529
+Average loss in epoch 217: 1.0612
+Epoch: 218
+[0/190] Loss: 1.0523
+[39/190] Loss: 1.0642
+[78/190] Loss: 1.0532
+[117/190] Loss: 1.0599
+[156/190] Loss: 1.0596
+Average loss in epoch 218: 1.0612
+Epoch: 219
+[0/190] Loss: 1.0616
+[39/190] Loss: 1.0388
+[78/190] Loss: 1.0540
+[117/190] Loss: 1.0721
+[156/190] Loss: 1.0605
+Average loss in epoch 219: 1.0619
+Epoch: 220
+[0/190] Loss: 1.0584
+[39/190] Loss: 1.0559
+[78/190] Loss: 1.0705
+[117/190] Loss: 1.0624
+[156/190] Loss: 1.0622
+Average loss in epoch 220: 1.0607
+start predicting:  2026-09-02 20:19:54.607459
+Train------------------------------------------------------
+{'HR@5': np.float64(21.6153), 'HR@10': np.float64(32.0547), 'HR@20': np.float64(46.2258), 'NDCG@5': np.float64(14.7324), 'NDCG@10': np.float64(18.0902), 'NDCG@20': np.float64(21.6605)}
+Test------------------------------------------------------
+{'HR@5': np.float64(8.0459), 'HR@10': np.float64(14.6754), 'HR@20': np.float64(24.9864), 'NDCG@5': np.float64(5.0851), 'NDCG@10': np.float64(7.2127), 'NDCG@20': np.float64(9.7963)}
+Best Eval---------------------------------------------------------
+{'Best_HR@5': np.float64(9.6025), 'Best_HR@10': np.float64(17.4105), 'Best_HR@20': np.float64(27.068), 'Best_NDCG@5': np.float64(5.88), 'Best_NDCG@10': np.float64(8.1374), 'Best_NDCG@20': np.float64(10.6316)}
+{'Best_epoch_HR@5': 60, 'Best_epoch_HR@10': 120, 'Best_epoch_HR@20': 120, 'Best_epoch_NDCG@5': 60, 'Best_epoch_NDCG@10': 100, 'Best_epoch_NDCG@20': 100}
+Namespace(dataset='ml-100k', log_file='log/', random_seed=1997, max_len=50, device='cuda', num_gpu=1, batch_size=512, hidden_size=128, dropout=0.1, emb_dropout=0.3, hidden_act='gelu', num_blocks=4, epochs=500, decay_step=100, gamma=0.1, metric_ks=[5, 10, 20], optimizer='Adam', lr=0.001, weight_decay=0, momentum=None, lambda_uncertainty=0.001, eval_interval=20, patience=5, eps=0.001, sample_N=30, lambda_t=0.001, dropout_c=0.1, eps_reverse=0.001, m_logNorm=1.0, s_logNorm=0.6, s_modsamp=1.0, last=2, mask_ratio=1.0, sampling_method='cosmap', Loss_Alpha=0.2, Loss_Beta=0.4, item_num=1683, user_num=944)
